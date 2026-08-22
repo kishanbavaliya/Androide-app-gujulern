@@ -1,41 +1,51 @@
-name: Build Flutter APK
+name: Build APK
 
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Java
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
+          distribution: 'temurin'
           java-version: '17'
 
-      - name: Setup Flutter
+      - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          channel: stable
+          channel: 'stable'
 
-      - name: Flutter Doctor
-        run: flutter doctor -v
+      - name: Remove any stale/partial platform folders
+        run: rm -rf android ios web linux macos windows
+
+      - name: Scaffold native platform folders
+        run: flutter create . --org com.gujjulearn.app
+
+      - name: Verify Android project was scaffolded
+        run: |
+          if [ ! -f android/app/build.gradle ]; then
+            echo "::error::android/app/build.gradle is missing after 'flutter create .'"
+            exit 1
+          fi
+          echo "android/app/build.gradle found."
 
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Build APK
-        run: flutter build apk --release
+      - name: Build release APK
+        run: flutter build apk --release --split-per-abi
 
-      - name: Upload APK
+      - name: Upload APKs
         uses: actions/upload-artifact@v4
         with:
-          name: release-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          name: gujju-learn-apk
+          path: build/app/outputs/flutter-apk/*.apk
+          retention-days: 14
