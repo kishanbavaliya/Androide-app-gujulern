@@ -1,0 +1,58 @@
+{
+  "language": "English",
+  "code": "en",
+  "locale": "en-US",
+  "categories": [
+    {
+      "id": "alphabet",
+      "title": "English Alphabet",
+      "icon": "abc",
+      "items": [
+        { "id": "en_a", "character": "A", "word": "Apple", "translation": "Apple", "image": "assets/images/english/apple.png" },
+        { "id": "en_b", "character": "B", "word": "Ball", "translation": "Ball", "image": "assets/images/english/ball.png" },
+        { "id": "en_c", "character": "C", "word": "Cat", "translation": "Cat", "image": "assets/images/english/cat.png" },
+        { "id": "en_d", "character": "D", "word": "Dog", "translation": "Dog", "image": "assets/images/english/dog.png" },
+        { "id": "en_e", "character": "E", "word": "Elephant", "translation": "Elephant", "image": "assets/images/english/elephant.png" },
+        { "id": "en_f", "character": "F", "word": "Fish", "translation": "Fish", "image": "assets/images/english/fish.png" },
+        { "id": "en_g", "character": "G", "word": "Grapes", "translation": "Grapes", "image": "assets/images/english/grapes.png" },
+        { "id": "en_h", "character": "H", "word": "House", "translation": "House", "image": "assets/images/english/house.png" },
+        { "id": "en_i", "character": "I", "word": "Ice Cream", "translation": "Ice Cream", "image": "assets/images/english/icecream.png" },
+        { "id": "en_j", "character": "J", "word": "Jug", "translation": "Jug", "image": "assets/images/english/jug.png" }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers",
+      "icon": "numbers",
+      "items": [
+        { "id": "en_num_1", "character": "1", "word": "One", "translation": "One", "image": "assets/images/english/one.png" },
+        { "id": "en_num_2", "character": "2", "word": "Two", "translation": "Two", "image": "assets/images/english/two.png" },
+        { "id": "en_num_3", "character": "3", "word": "Three", "translation": "Three", "image": "assets/images/english/three.png" },
+        { "id": "en_num_4", "character": "4", "word": "Four", "translation": "Four", "image": "assets/images/english/four.png" },
+        { "id": "en_num_5", "character": "5", "word": "Five", "translation": "Five", "image": "assets/images/english/five.png" }
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "Colors",
+      "icon": "palette",
+      "items": [
+        { "id": "en_col_red", "character": "🔴", "word": "Red", "translation": "Red", "image": "assets/images/english/red.png" },
+        { "id": "en_col_blue", "character": "🔵", "word": "Blue", "translation": "Blue", "image": "assets/images/english/blue.png" },
+        { "id": "en_col_green", "character": "🟢", "word": "Green", "translation": "Green", "image": "assets/images/english/green.png" },
+        { "id": "en_col_yellow", "character": "🟡", "word": "Yellow", "translation": "Yellow", "image": "assets/images/english/yellow.png" }
+      ]
+    },
+    {
+      "id": "animals",
+      "title": "Animals",
+      "icon": "pets",
+      "items": [
+        { "id": "en_an_cow", "character": "🐄", "word": "Cow", "translation": "Cow", "image": "assets/images/english/cow.png" },
+        { "id": "en_an_goat", "character": "🐐", "word": "Goat", "translation": "Goat", "image": "assets/images/english/goat.png" },
+        { "id": "en_an_horse", "character": "🐎", "word": "Horse", "translation": "Horse", "image": "assets/images/english/horse.png" },
+        { "id": "en_an_dog", "character": "🐕", "word": "Dog", "translation": "Dog", "image": "assets/images/english/dog.png" }
+      ]
+    }
+  ]
+}

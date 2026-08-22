@@ -1,0 +1,14 @@
+{
+  "countries": [
+    { "code": "IN", "name": "India", "flag": "🇮🇳", "languageCodes": ["gu", "hi", "en", "sa", "mr", "bn", "ta", "te", "kn", "ml", "pa"] },
+    { "code": "US", "name": "United States", "flag": "🇺🇸", "languageCodes": ["en", "es"] },
+    { "code": "GB", "name": "United Kingdom", "flag": "🇬🇧", "languageCodes": ["en"] },
+    { "code": "FR", "name": "France", "flag": "🇫🇷", "languageCodes": ["fr", "en"] },
+    { "code": "DE", "name": "Germany", "flag": "🇩🇪", "languageCodes": ["de", "en"] },
+    { "code": "ES", "name": "Spain", "flag": "🇪🇸", "languageCodes": ["es", "en"] },
+    { "code": "JP", "name": "Japan", "flag": "🇯🇵", "languageCodes": ["ja", "en"] },
+    { "code": "CN", "name": "China", "flag": "🇨🇳", "languageCodes": ["zh", "en"] },
+    { "code": "KR", "name": "South Korea", "flag": "🇰🇷", "languageCodes": ["ko", "en"] },
+    { "code": "IT", "name": "Italy", "flag": "🇮🇹", "languageCodes": ["it", "en"] }
+  ]
+}

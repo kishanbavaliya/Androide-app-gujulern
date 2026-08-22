@@ -1,0 +1,22 @@
+{
+  "languages": [
+    { "code": "gu", "name": "Gujarati", "nativeName": "ગુજરાતી", "locale": "gu-IN", "flag": "🇮🇳", "contentFile": "assets/data/gujarati.json", "hasContent": true },
+    { "code": "hi", "name": "Hindi", "nativeName": "हिन्दी", "locale": "hi-IN", "flag": "🇮🇳", "contentFile": "assets/data/hindi.json", "hasContent": true },
+    { "code": "en", "name": "English", "nativeName": "English", "locale": "en-US", "flag": "🇬🇧", "contentFile": "assets/data/english.json", "hasContent": true },
+    { "code": "sa", "name": "Sanskrit", "nativeName": "संस्कृतम्", "locale": "hi-IN", "flag": "🕉️", "contentFile": "assets/data/sanskrit.json", "hasContent": true },
+    { "code": "mr", "name": "Marathi", "nativeName": "मराठी", "locale": "mr-IN", "flag": "🇮🇳", "contentFile": "", "hasContent": false },
+    { "code": "bn", "name": "Bengali", "nativeName": "বাংলা", "locale": "bn-IN", "flag": "🇮🇳", "contentFile": "", "hasContent": false },
+    { "code": "ta", "name": "Tamil", "nativeName": "தமிழ்", "locale": "ta-IN", "flag": "🇮🇳", "contentFile": "", "hasContent": false },
+    { "code": "te", "name": "Telugu", "nativeName": "తెలుగు", "locale": "te-IN", "flag": "🇮🇳", "contentFile": "", "hasContent": false },
+    { "code": "kn", "name": "Kannada", "nativeName": "ಕನ್ನಡ", "locale": "kn-IN", "flag": "🇮🇳", "contentFile": "", "hasContent": false },
+    { "code": "ml", "name": "Malayalam", "nativeName": "മലയാളം", "locale": "ml-IN", "flag": "🇮🇳", "contentFile": "", "hasContent": false },
+    { "code": "pa", "name": "Punjabi", "nativeName": "ਪੰਜਾਬੀ", "locale": "pa-IN", "flag": "🇮🇳", "contentFile": "", "hasContent": false },
+    { "code": "es", "name": "Spanish", "nativeName": "Español", "locale": "es-ES", "flag": "🇪🇸", "contentFile": "", "hasContent": false },
+    { "code": "fr", "name": "French", "nativeName": "Français", "locale": "fr-FR", "flag": "🇫🇷", "contentFile": "", "hasContent": false },
+    { "code": "de", "name": "German", "nativeName": "Deutsch", "locale": "de-DE", "flag": "🇩🇪", "contentFile": "", "hasContent": false },
+    { "code": "ja", "name": "Japanese", "nativeName": "日本語", "locale": "ja-JP", "flag": "🇯🇵", "contentFile": "", "hasContent": false },
+    { "code": "zh", "name": "Chinese", "nativeName": "中文", "locale": "zh-CN", "flag": "🇨🇳", "contentFile": "", "hasContent": false },
+    { "code": "ko", "name": "Korean", "nativeName": "한국어", "locale": "ko-KR", "flag": "🇰🇷", "contentFile": "", "hasContent": false },
+    { "code": "it", "name": "Italian", "nativeName": "Italiano", "locale": "it-IT", "flag": "🇮🇹", "contentFile": "", "hasContent": false }
+  ]
+}

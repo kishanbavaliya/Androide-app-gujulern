@@ -1,0 +1,66 @@
+{
+  "language": "Sanskrit",
+  "code": "sa",
+  "locale": "hi-IN",
+  "categories": [
+    {
+      "id": "alphabet",
+      "title": "Sanskrit Varnamala",
+      "icon": "abc",
+      "items": [
+        { "id": "sa_a", "character": "अ", "word": "अश्वः", "translation": "Horse", "image": "assets/images/sanskrit/ashvah.png" },
+        { "id": "sa_aa", "character": "आ", "word": "आम्रः", "translation": "Mango", "image": "assets/images/sanskrit/aamrah.png" },
+        { "id": "sa_i", "character": "इ", "word": "इन्दुः", "translation": "Moon", "image": "assets/images/sanskrit/induh.png" },
+        { "id": "sa_ii", "character": "ई", "word": "ईशः", "translation": "Lord", "image": "assets/images/sanskrit/ishah.png" },
+        { "id": "sa_u", "character": "उ", "word": "उदकम्", "translation": "Water", "image": "assets/images/sanskrit/udakam.png" },
+        { "id": "sa_uu", "character": "ऊ", "word": "ऊर्मिः", "translation": "Wave", "image": "assets/images/sanskrit/urmih.png" },
+        { "id": "sa_e", "character": "ए", "word": "एकः", "translation": "One (masc.)", "image": "assets/images/sanskrit/ekah.png" },
+        { "id": "sa_o", "character": "ओ", "word": "ओदनः", "translation": "Cooked rice", "image": "assets/images/sanskrit/odanah.png" },
+        { "id": "sa_k", "character": "क", "word": "कमलम्", "translation": "Lotus", "image": "assets/images/sanskrit/kamalam.png" },
+        { "id": "sa_g", "character": "ग", "word": "गौः", "translation": "Cow", "image": "assets/images/sanskrit/gauh.png" },
+        { "id": "sa_ch", "character": "च", "word": "चन्द्रः", "translation": "Moon", "image": "assets/images/sanskrit/chandrah.png" },
+        { "id": "sa_t", "character": "त", "word": "तरुः", "translation": "Tree", "image": "assets/images/sanskrit/taruh.png" },
+        { "id": "sa_n", "character": "न", "word": "नदी", "translation": "River", "image": "assets/images/sanskrit/nadi.png" },
+        { "id": "sa_p", "character": "प", "word": "पुष्पम्", "translation": "Flower", "image": "assets/images/sanskrit/pushpam.png" },
+        { "id": "sa_m", "character": "म", "word": "मयूरः", "translation": "Peacock", "image": "assets/images/sanskrit/mayurah.png" },
+        { "id": "sa_r", "character": "र", "word": "राजा", "translation": "King", "image": "assets/images/sanskrit/raja.png" },
+        { "id": "sa_s", "character": "स", "word": "सूर्यः", "translation": "Sun", "image": "assets/images/sanskrit/suryah.png" },
+        { "id": "sa_h", "character": "ह", "word": "हस्तः", "translation": "Hand", "image": "assets/images/sanskrit/hastah.png" }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers",
+      "icon": "numbers",
+      "items": [
+        { "id": "sa_num_1", "character": "१", "word": "एकम्", "translation": "One", "image": "assets/images/sanskrit/one.png" },
+        { "id": "sa_num_2", "character": "२", "word": "द्वे", "translation": "Two", "image": "assets/images/sanskrit/two.png" },
+        { "id": "sa_num_3", "character": "३", "word": "त्रीणि", "translation": "Three", "image": "assets/images/sanskrit/three.png" },
+        { "id": "sa_num_4", "character": "४", "word": "चत्वारि", "translation": "Four", "image": "assets/images/sanskrit/four.png" },
+        { "id": "sa_num_5", "character": "५", "word": "पञ्च", "translation": "Five", "image": "assets/images/sanskrit/five.png" }
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "Colors",
+      "icon": "palette",
+      "items": [
+        { "id": "sa_col_red", "character": "🔴", "word": "रक्तः", "translation": "Red", "image": "assets/images/sanskrit/red.png" },
+        { "id": "sa_col_blue", "character": "🔵", "word": "नीलः", "translation": "Blue", "image": "assets/images/sanskrit/blue.png" },
+        { "id": "sa_col_green", "character": "🟢", "word": "हरितः", "translation": "Green", "image": "assets/images/sanskrit/green.png" },
+        { "id": "sa_col_yellow", "character": "🟡", "word": "पीतः", "translation": "Yellow", "image": "assets/images/sanskrit/yellow.png" }
+      ]
+    },
+    {
+      "id": "animals",
+      "title": "Animals",
+      "icon": "pets",
+      "items": [
+        { "id": "sa_an_cow", "character": "🐄", "word": "गौः", "translation": "Cow", "image": "assets/images/sanskrit/cow.png" },
+        { "id": "sa_an_horse", "character": "🐎", "word": "अश्वः", "translation": "Horse", "image": "assets/images/sanskrit/horse.png" },
+        { "id": "sa_an_dog", "character": "🐕", "word": "श्वा", "translation": "Dog", "image": "assets/images/sanskrit/dog.png" },
+        { "id": "sa_an_elephant", "character": "🐘", "word": "गजः", "translation": "Elephant", "image": "assets/images/sanskrit/elephant.png" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "language": "Hindi",
+  "code": "hi",
+  "locale": "hi-IN",
+  "categories": [
+    {
+      "id": "alphabet",
+      "title": "Hindi Alphabet",
+      "icon": "abc",
+      "items": [
+        { "id": "hi_a", "character": "अ", "word": "अनार", "translation": "Pomegranate", "image": "assets/images/hindi/anar.png" },
+        { "id": "hi_aa", "character": "आ", "word": "आम", "translation": "Mango", "image": "assets/images/hindi/aam.png" },
+        { "id": "hi_i", "character": "इ", "word": "इमली", "translation": "Tamarind", "image": "assets/images/hindi/imli.png" },
+        { "id": "hi_ii", "character": "ई", "word": "ईख", "translation": "Sugarcane", "image": "assets/images/hindi/eekh.png" },
+        { "id": "hi_u", "character": "उ", "word": "उल्लू", "translation": "Owl", "image": "assets/images/hindi/ullu.png" },
+        { "id": "hi_e", "character": "ए", "word": "एक", "translation": "One", "image": "assets/images/hindi/ek.png" },
+        { "id": "hi_k", "character": "क", "word": "कमल", "translation": "Lotus", "image": "assets/images/hindi/kamal.png" },
+        { "id": "hi_g", "character": "ग", "word": "गाय", "translation": "Cow", "image": "assets/images/hindi/gaay.png" },
+        { "id": "hi_m", "character": "म", "word": "मछली", "translation": "Fish", "image": "assets/images/hindi/machhli.png" }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers",
+      "icon": "numbers",
+      "items": [
+        { "id": "hi_num_1", "character": "१", "word": "एक", "translation": "One", "image": "assets/images/hindi/one.png" },
+        { "id": "hi_num_2", "character": "२", "word": "दो", "translation": "Two", "image": "assets/images/hindi/two.png" },
+        { "id": "hi_num_3", "character": "३", "word": "तीन", "translation": "Three", "image": "assets/images/hindi/three.png" },
+        { "id": "hi_num_4", "character": "४", "word": "चार", "translation": "Four", "image": "assets/images/hindi/four.png" },
+        { "id": "hi_num_5", "character": "५", "word": "पांच", "translation": "Five", "image": "assets/images/hindi/five.png" }
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "Colors",
+      "icon": "palette",
+      "items": [
+        { "id": "hi_col_red", "character": "🔴", "word": "लाल", "translation": "Red", "image": "assets/images/hindi/red.png" },
+        { "id": "hi_col_blue", "character": "🔵", "word": "नीला", "translation": "Blue", "image": "assets/images/hindi/blue.png" },
+        { "id": "hi_col_green", "character": "🟢", "word": "हरा", "translation": "Green", "image": "assets/images/hindi/green.png" },
+        { "id": "hi_col_yellow", "character": "🟡", "word": "पीला", "translation": "Yellow", "image": "assets/images/hindi/yellow.png" }
+      ]
+    },
+    {
+      "id": "animals",
+      "title": "Animals",
+      "icon": "pets",
+      "items": [
+        { "id": "hi_an_cow", "character": "🐄", "word": "गाय", "translation": "Cow", "image": "assets/images/hindi/cow.png" },
+        { "id": "hi_an_goat", "character": "🐐", "word": "बकरी", "translation": "Goat", "image": "assets/images/hindi/goat.png" },
+        { "id": "hi_an_horse", "character": "🐎", "word": "घोड़ा", "translation": "Horse", "image": "assets/images/hindi/horse.png" },
+        { "id": "hi_an_dog", "character": "🐕", "word": "कुत्ता", "translation": "Dog", "image": "assets/images/hindi/dog.png" }
+      ]
+    }
+  ]
+}

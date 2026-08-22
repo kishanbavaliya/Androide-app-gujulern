@@ -1,0 +1,78 @@
+{
+  "language": "Gujarati",
+  "code": "gu",
+  "locale": "gu-IN",
+  "categories": [
+    {
+      "id": "alphabet",
+      "title": "Gujarati Alphabet",
+      "icon": "abc",
+      "items": [
+        { "id": "gu_k", "character": "ક", "word": "કબૂતર", "translation": "Pigeon", "image": "assets/images/gujarati/kabutar.png" },
+        { "id": "gu_kh", "character": "ખ", "word": "ખિસકોલી", "translation": "Squirrel", "image": "assets/images/gujarati/khiskoli.png" },
+        { "id": "gu_g", "character": "ગ", "word": "ગાય", "translation": "Cow", "image": "assets/images/gujarati/gay.png" },
+        { "id": "gu_gh", "character": "ઘ", "word": "ઘર", "translation": "House", "image": "assets/images/gujarati/ghar.png" },
+        { "id": "gu_ch", "character": "ચ", "word": "ચકલી", "translation": "Sparrow", "image": "assets/images/gujarati/chakli.png" },
+        { "id": "gu_chh", "character": "છ", "word": "છત્રી", "translation": "Umbrella", "image": "assets/images/gujarati/chhatri.png" },
+        { "id": "gu_j", "character": "જ", "word": "જહાજ", "translation": "Ship", "image": "assets/images/gujarati/jahaj.png" },
+        { "id": "gu_jh", "character": "ઝ", "word": "ઝાડ", "translation": "Tree", "image": "assets/images/gujarati/jhaad.png" },
+        { "id": "gu_tt", "character": "ટ", "word": "ટામેટા", "translation": "Tomato", "image": "assets/images/gujarati/tameta.png" },
+        { "id": "gu_tth", "character": "ઠ", "word": "ઠગ", "translation": "Cheat", "image": "assets/images/gujarati/thag.png" },
+        { "id": "gu_dd", "character": "ડ", "word": "ડમરો", "translation": "Basil plant", "image": "assets/images/gujarati/damro.png" },
+        { "id": "gu_ddh", "character": "ઢ", "word": "ઢોલ", "translation": "Drum", "image": "assets/images/gujarati/dhol.png" },
+        { "id": "gu_t", "character": "ત", "word": "તડબૂચ", "translation": "Watermelon", "image": "assets/images/gujarati/tadbuch.png" },
+        { "id": "gu_th", "character": "થ", "word": "થાળી", "translation": "Plate", "image": "assets/images/gujarati/thali.png" },
+        { "id": "gu_d", "character": "દ", "word": "દરવાજો", "translation": "Door", "image": "assets/images/gujarati/darwajo.png" },
+        { "id": "gu_dh", "character": "ધ", "word": "ધનુષ", "translation": "Bow", "image": "assets/images/gujarati/dhanush.png" },
+        { "id": "gu_n", "character": "ન", "word": "નદી", "translation": "River", "image": "assets/images/gujarati/nadi.png" },
+        { "id": "gu_p", "character": "પ", "word": "પતંગ", "translation": "Kite", "image": "assets/images/gujarati/patang.png" },
+        { "id": "gu_f", "character": "ફ", "word": "ફૂલ", "translation": "Flower", "image": "assets/images/gujarati/phool.png" },
+        { "id": "gu_b", "character": "બ", "word": "બકરી", "translation": "Goat", "image": "assets/images/gujarati/bakri.png" },
+        { "id": "gu_bh", "character": "ભ", "word": "ભાલુ", "translation": "Bear", "image": "assets/images/gujarati/bhalu.png" },
+        { "id": "gu_m", "character": "મ", "word": "મગર", "translation": "Crocodile", "image": "assets/images/gujarati/magar.png" },
+        { "id": "gu_y", "character": "ય", "word": "યાદી", "translation": "List", "image": "assets/images/gujarati/yaadi.png" },
+        { "id": "gu_r", "character": "ર", "word": "રમકડું", "translation": "Toy", "image": "assets/images/gujarati/ramakdu.png" },
+        { "id": "gu_l", "character": "લ", "word": "લખોટી", "translation": "Marble", "image": "assets/images/gujarati/lakhoti.png" },
+        { "id": "gu_v", "character": "વ", "word": "વાદળ", "translation": "Cloud", "image": "assets/images/gujarati/vadal.png" },
+        { "id": "gu_sh", "character": "શ", "word": "શાળા", "translation": "School", "image": "assets/images/gujarati/shala.png" },
+        { "id": "gu_ss", "character": "ષ", "word": "ષટકોણ", "translation": "Hexagon", "image": "assets/images/gujarati/shatkon.png" },
+        { "id": "gu_s", "character": "સ", "word": "સફરજન", "translation": "Apple", "image": "assets/images/gujarati/safarjan.png" },
+        { "id": "gu_h", "character": "હ", "word": "હાથી", "translation": "Elephant", "image": "assets/images/gujarati/hathi.png" }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers",
+      "icon": "numbers",
+      "items": [
+        { "id": "gu_num_1", "character": "૧", "word": "એક", "translation": "One", "image": "assets/images/gujarati/one.png" },
+        { "id": "gu_num_2", "character": "૨", "word": "બે", "translation": "Two", "image": "assets/images/gujarati/two.png" },
+        { "id": "gu_num_3", "character": "૩", "word": "ત્રણ", "translation": "Three", "image": "assets/images/gujarati/three.png" },
+        { "id": "gu_num_4", "character": "૪", "word": "ચાર", "translation": "Four", "image": "assets/images/gujarati/four.png" },
+        { "id": "gu_num_5", "character": "૫", "word": "પાંચ", "translation": "Five", "image": "assets/images/gujarati/five.png" }
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "Colors",
+      "icon": "palette",
+      "items": [
+        { "id": "gu_col_red", "character": "🔴", "word": "લાલ", "translation": "Red", "image": "assets/images/gujarati/red.png" },
+        { "id": "gu_col_blue", "character": "🔵", "word": "ભૂરો", "translation": "Blue", "image": "assets/images/gujarati/blue.png" },
+        { "id": "gu_col_green", "character": "🟢", "word": "લીલો", "translation": "Green", "image": "assets/images/gujarati/green.png" },
+        { "id": "gu_col_yellow", "character": "🟡", "word": "પીળો", "translation": "Yellow", "image": "assets/images/gujarati/yellow.png" }
+      ]
+    },
+    {
+      "id": "animals",
+      "title": "Animals",
+      "icon": "pets",
+      "items": [
+        { "id": "gu_an_cow", "character": "🐄", "word": "ગાય", "translation": "Cow", "image": "assets/images/gujarati/cow.png" },
+        { "id": "gu_an_goat", "character": "🐐", "word": "બકરી", "translation": "Goat", "image": "assets/images/gujarati/goat.png" },
+        { "id": "gu_an_horse", "character": "🐎", "word": "ઘોડો", "translation": "Horse", "image": "assets/images/gujarati/horse.png" },
+        { "id": "gu_an_dog", "character": "🐕", "word": "કૂતરો", "translation": "Dog", "image": "assets/images/gujarati/dog.png" }
+      ]
+    }
+  ]
+}
