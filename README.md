@@ -52,6 +52,32 @@ cloud — no local Flutter/Android SDK install required:
    "install from unknown sources" for whichever app you use to open
    it, since it isn't from the Play Store).
 
+### Fixing "android/app/build.gradle... could not be found"
+This means a stale or partial `android/` folder is already committed
+to your git repo (commonly from testing `flutter create .` locally
+before pushing). Flutter's scaffolding step won't overwrite an
+existing platform folder, even a broken one, so the CI build fails
+looking for a file that isn't there. The workflow now wipes and
+regenerates platform folders on every run to prevent this, but you
+also need to stop git from tracking any old copy already in your
+repo:
+
+```bash
+git rm -r --cached android ios web linux macos windows 2>/dev/null
+git commit -m "Stop tracking generated platform folders"
+git push
+```
+
+`.gitignore` already excludes these folders going forward, so this is
+a one-time cleanup.
+
+### Note on build.gradle vs build.gradle.kts
+Recent Flutter versions scaffold Android projects using Kotlin DSL
+(`android/app/build.gradle.kts`) instead of the older Groovy
+`build.gradle`. Both are valid and `flutter build apk` works with
+either — the workflow's verification step checks for both filenames,
+so this doesn't need any action on your part.
+
 ### Android TTS note
 Some Android emulators ship without Gujarati/Hindi TTS voices installed.
 If pronunciation doesn't play, install the language pack under
