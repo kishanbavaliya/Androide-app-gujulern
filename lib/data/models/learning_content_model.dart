@@ -6,12 +6,19 @@ class LearningItem {
   final String translation;
   final String image;
 
+  /// Emoji used as the animated fallback visual when [image] is empty or
+  /// missing on disk (see [AnimatedLearningVisual]). Falls back to
+  /// [character] itself when also empty (e.g. colors/animals already use
+  /// an emoji as their character).
+  final String emoji;
+
   const LearningItem({
     required this.id,
     required this.character,
     required this.word,
     required this.translation,
     required this.image,
+    this.emoji = '',
   });
 
   factory LearningItem.fromJson(Map<String, dynamic> json) {
@@ -21,8 +28,12 @@ class LearningItem {
       word: json['word'] as String,
       translation: json['translation'] as String,
       image: json['image'] as String? ?? '',
+      emoji: json['emoji'] as String? ?? '',
     );
   }
+
+  /// The best available emoji/glyph to animate for this item.
+  String get displayEmoji => emoji.isNotEmpty ? emoji : character;
 }
 
 /// A category of items, e.g. "Alphabet", "Numbers", "Colors", "Animals".

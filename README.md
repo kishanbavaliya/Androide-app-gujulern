@@ -146,6 +146,9 @@ required — the grid picks it up automatically.
 
 ## Content data shape
 
+Each item now also carries an optional `emoji` field used for the
+animated visual (see "Animated visuals" below):
+
 ```json
 {
   "language": "Gujarati",
@@ -183,6 +186,40 @@ paths only** (no bundled artwork) — drop real PNGs into
 `assets/images/<language>/` at the exact paths referenced in the JSON
 to replace the placeholders; no code changes needed.
 
+## Animated visuals
+
+The word-detail screen ("A for Apple", a number, a color, an animal)
+renders through `AnimatedLearningVisual`
+(`shared/widgets/animated_learning_visual.dart`), which gives every
+item motion appropriate to its category — letters bounce, numbers
+pulse, colors wiggle, animals gently float.
+
+**Important scope note:** this app is fully offline with no bundled
+photographic or GIF artwork (there's no way to fetch real animated
+image files without a network connection at build time). "Animated"
+is currently delivered as lightweight, built-in Flutter motion applied
+to an emoji glyph per item (each item's `emoji` field in the content
+JSON) — e.g. "A for Apple" shows 🍎 bouncing, not a photo/GIF of an
+apple. This keeps the app instantly offline-safe with zero asset
+weight while still fulfilling "animated visuals wherever helpful."
+
+The architecture supports dropping in real animations later with
+**zero code changes**: `AnimatedLearningVisual` accepts an optional
+`lottieAsset` path (Lottie/`.json` animation files, via the bundled
+`lottie` package) and falls back automatically — Lottie file if
+present → static image if present → animated emoji. To upgrade a
+specific item, add a `.json` Lottie file under
+`assets/animations/<language>/` and pass its path as `lottieAsset`
+when constructing the widget for that item (currently done in
+`word_detail_screen.dart`).
+
+The letter/number/color/animal **grid boxes** (`LessonScreen`)
+intentionally stay static rather than animated — with up to 100 boxes
+on screen at once (the Numbers lesson), animating all of them
+simultaneously would hurt scroll performance and readability. Full
+motion is reserved for the one-item-at-a-time detail view where it
+adds the most delight without the cost.
+
 ## Text-to-Speech
 
 `TextToSpeechService` (in `services/tts_service.dart`) wraps
@@ -207,12 +244,24 @@ state management for an app of this scope.
 
 ## Known limitations / next steps
 
-- Sample lesson content covers Gujarati, Hindi, English, and Sanskrit
-  (Alphabet, Numbers, Colors, Animals categories); other languages are
-  listed but marked "Coming soon" until content JSON is authored for
-  them, per the extensible data model.
-- No bundled illustration artwork — `AppImage` shows a graceful emoji
-  placeholder until real images are added.
+- Gujarati, Hindi, English, and Sanskrit are fully populated: each has
+  a complete Alphabet (all letters, "A for Apple" style with an
+  animated glyph), Numbers 1–100, 12 Colors, and 25 Animals. Numbers
+  1–100 in Hindi, Gujarati, and Sanskrit were individually sourced
+  and verified against dedicated numeral references (linked in the
+  PR/commit notes) since these languages use largely irregular
+  number-word formation — not derived by pattern-guessing.
+- Sanskrit's alphabet and vocabulary intentionally use a curated
+  subset of consonants (skipping ङ ञ ण ट ठ ड ढ थ, which rarely begin
+  simple standalone words in any of these three scripts) rather than
+  inventing shaky example words just to fill every slot — the same
+  simplification many children's Hindi/Sanskrit alphabet charts use.
+- No bundled illustration artwork or GIF/photo animations — see
+  "Animated visuals" above for what's actually shipped (built-in
+  motion on emoji) versus the drop-in path for real Lottie files.
+- Other languages beyond these four are listed in the picker but
+  marked "Coming soon" until content JSON is authored for them, per
+  the extensible data model.
 - Voice practice (speech recognition) was intentionally left out to
   keep the app 100% offline-safe without adding a heavy on-device STT
   dependency; the architecture leaves room to add it as an optional

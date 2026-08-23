@@ -14,6 +14,7 @@ dependencies:
   shared_preferences: ^2.2.3
   flutter_tts: ^4.0.2
   google_fonts: ^6.2.1
+  lottie: ^3.1.2
 
 dev_dependencies:
   flutter_test:
@@ -30,3 +31,8 @@ flutter:
     - assets/images/hindi/
     - assets/images/english/
     - assets/images/sanskrit/
+    - assets/animations/common/
+    - assets/animations/gujarati/
+    - assets/animations/hindi/
+    - assets/animations/english/
+    - assets/animations/sanskrit/

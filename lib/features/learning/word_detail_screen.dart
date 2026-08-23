@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../core/providers/app_provider.dart';
 import '../../data/models/learning_content_model.dart';
-import '../../shared/widgets/app_image.dart';
+import '../../shared/widgets/animated_learning_visual.dart';
 import '../../shared/widgets/audio_button.dart';
 
 /// Detail screen for a single letter/word. Swiping left/right moves
@@ -86,16 +86,18 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    item.character,
-                    style: const TextStyle(
-                        fontSize: 72, fontWeight: FontWeight.w800),
-                  ),
-                  const SizedBox(height: 20),
-                  AppImage(
-                    assetPath: item.image,
-                    fallbackEmoji: '🖼️',
-                    size: 180,
+                  if (widget.category.id != 'numbers')
+                    Text(
+                      item.character,
+                      style: const TextStyle(
+                          fontSize: 56, fontWeight: FontWeight.w800),
+                    ),
+                  if (widget.category.id != 'numbers') const SizedBox(height: 12),
+                  AnimatedLearningVisual(
+                    fallbackEmoji: item.displayEmoji,
+                    style: animationStyleForCategory(widget.category.id),
+                    imageAsset: item.image,
+                    size: 170,
                   ),
                   const SizedBox(height: 24),
                   Text(

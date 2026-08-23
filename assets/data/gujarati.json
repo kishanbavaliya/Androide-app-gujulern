@@ -5,51 +5,1036 @@
   "categories": [
     {
       "id": "alphabet",
-      "title": "Gujarati Alphabet",
+      "title": "Alphabet",
       "icon": "abc",
       "items": [
-        { "id": "gu_k", "character": "ક", "word": "કબૂતર", "translation": "Pigeon", "image": "assets/images/gujarati/kabutar.png" },
-        { "id": "gu_kh", "character": "ખ", "word": "ખિસકોલી", "translation": "Squirrel", "image": "assets/images/gujarati/khiskoli.png" },
-        { "id": "gu_g", "character": "ગ", "word": "ગાય", "translation": "Cow", "image": "assets/images/gujarati/gay.png" },
-        { "id": "gu_gh", "character": "ઘ", "word": "ઘર", "translation": "House", "image": "assets/images/gujarati/ghar.png" },
-        { "id": "gu_ch", "character": "ચ", "word": "ચકલી", "translation": "Sparrow", "image": "assets/images/gujarati/chakli.png" },
-        { "id": "gu_chh", "character": "છ", "word": "છત્રી", "translation": "Umbrella", "image": "assets/images/gujarati/chhatri.png" },
-        { "id": "gu_j", "character": "જ", "word": "જહાજ", "translation": "Ship", "image": "assets/images/gujarati/jahaj.png" },
-        { "id": "gu_jh", "character": "ઝ", "word": "ઝાડ", "translation": "Tree", "image": "assets/images/gujarati/jhaad.png" },
-        { "id": "gu_tt", "character": "ટ", "word": "ટામેટા", "translation": "Tomato", "image": "assets/images/gujarati/tameta.png" },
-        { "id": "gu_tth", "character": "ઠ", "word": "ઠગ", "translation": "Cheat", "image": "assets/images/gujarati/thag.png" },
-        { "id": "gu_dd", "character": "ડ", "word": "ડમરો", "translation": "Basil plant", "image": "assets/images/gujarati/damro.png" },
-        { "id": "gu_ddh", "character": "ઢ", "word": "ઢોલ", "translation": "Drum", "image": "assets/images/gujarati/dhol.png" },
-        { "id": "gu_t", "character": "ત", "word": "તડબૂચ", "translation": "Watermelon", "image": "assets/images/gujarati/tadbuch.png" },
-        { "id": "gu_th", "character": "થ", "word": "થાળી", "translation": "Plate", "image": "assets/images/gujarati/thali.png" },
-        { "id": "gu_d", "character": "દ", "word": "દરવાજો", "translation": "Door", "image": "assets/images/gujarati/darwajo.png" },
-        { "id": "gu_dh", "character": "ધ", "word": "ધનુષ", "translation": "Bow", "image": "assets/images/gujarati/dhanush.png" },
-        { "id": "gu_n", "character": "ન", "word": "નદી", "translation": "River", "image": "assets/images/gujarati/nadi.png" },
-        { "id": "gu_p", "character": "પ", "word": "પતંગ", "translation": "Kite", "image": "assets/images/gujarati/patang.png" },
-        { "id": "gu_f", "character": "ફ", "word": "ફૂલ", "translation": "Flower", "image": "assets/images/gujarati/phool.png" },
-        { "id": "gu_b", "character": "બ", "word": "બકરી", "translation": "Goat", "image": "assets/images/gujarati/bakri.png" },
-        { "id": "gu_bh", "character": "ભ", "word": "ભાલુ", "translation": "Bear", "image": "assets/images/gujarati/bhalu.png" },
-        { "id": "gu_m", "character": "મ", "word": "મગર", "translation": "Crocodile", "image": "assets/images/gujarati/magar.png" },
-        { "id": "gu_y", "character": "ય", "word": "યાદી", "translation": "List", "image": "assets/images/gujarati/yaadi.png" },
-        { "id": "gu_r", "character": "ર", "word": "રમકડું", "translation": "Toy", "image": "assets/images/gujarati/ramakdu.png" },
-        { "id": "gu_l", "character": "લ", "word": "લખોટી", "translation": "Marble", "image": "assets/images/gujarati/lakhoti.png" },
-        { "id": "gu_v", "character": "વ", "word": "વાદળ", "translation": "Cloud", "image": "assets/images/gujarati/vadal.png" },
-        { "id": "gu_sh", "character": "શ", "word": "શાળા", "translation": "School", "image": "assets/images/gujarati/shala.png" },
-        { "id": "gu_ss", "character": "ષ", "word": "ષટકોણ", "translation": "Hexagon", "image": "assets/images/gujarati/shatkon.png" },
-        { "id": "gu_s", "character": "સ", "word": "સફરજન", "translation": "Apple", "image": "assets/images/gujarati/safarjan.png" },
-        { "id": "gu_h", "character": "હ", "word": "હાથી", "translation": "Elephant", "image": "assets/images/gujarati/hathi.png" }
+        {
+          "id": "gu_a",
+          "character": "અ",
+          "word": "અનાનસ",
+          "translation": "Pineapple",
+          "image": "",
+          "emoji": "🍍"
+        },
+        {
+          "id": "gu_aa",
+          "character": "આ",
+          "word": "આમ",
+          "translation": "Mango",
+          "image": "",
+          "emoji": "🥭"
+        },
+        {
+          "id": "gu_i",
+          "character": "ઇ",
+          "word": "ઇંડું",
+          "translation": "Egg",
+          "image": "",
+          "emoji": "🥚"
+        },
+        {
+          "id": "gu_ii",
+          "character": "ઈ",
+          "word": "ઈયળ",
+          "translation": "Caterpillar",
+          "image": "",
+          "emoji": "🐛"
+        },
+        {
+          "id": "gu_u",
+          "character": "ઉ",
+          "word": "ઉંદર",
+          "translation": "Mouse",
+          "image": "",
+          "emoji": "🐭"
+        },
+        {
+          "id": "gu_uu",
+          "character": "ઊ",
+          "word": "ઊન",
+          "translation": "Wool",
+          "image": "",
+          "emoji": "🧶"
+        },
+        {
+          "id": "gu_e",
+          "character": "એ",
+          "word": "એક",
+          "translation": "One",
+          "image": "",
+          "emoji": "1️⃣"
+        },
+        {
+          "id": "gu_ai",
+          "character": "ઐ",
+          "word": "ઐનક",
+          "translation": "Spectacles",
+          "image": "",
+          "emoji": "👓"
+        },
+        {
+          "id": "gu_o",
+          "character": "ઓ",
+          "word": "ઓશીકું",
+          "translation": "Pillow",
+          "image": "",
+          "emoji": "🛏️"
+        },
+        {
+          "id": "gu_au",
+          "character": "ઔ",
+          "word": "ઔષધ",
+          "translation": "Medicine",
+          "image": "",
+          "emoji": "💊"
+        },
+        {
+          "id": "gu_k",
+          "character": "ક",
+          "word": "કબૂતર",
+          "translation": "Pigeon",
+          "image": "",
+          "emoji": "🕊️"
+        },
+        {
+          "id": "gu_kh",
+          "character": "ખ",
+          "word": "ખિસકોલી",
+          "translation": "Squirrel",
+          "image": "",
+          "emoji": "🐿️"
+        },
+        {
+          "id": "gu_g",
+          "character": "ગ",
+          "word": "ગાય",
+          "translation": "Cow",
+          "image": "",
+          "emoji": "🐄"
+        },
+        {
+          "id": "gu_gh",
+          "character": "ઘ",
+          "word": "ઘર",
+          "translation": "House",
+          "image": "",
+          "emoji": "🏠"
+        },
+        {
+          "id": "gu_ch",
+          "character": "ચ",
+          "word": "ચકલી",
+          "translation": "Sparrow",
+          "image": "",
+          "emoji": "🐦"
+        },
+        {
+          "id": "gu_chh",
+          "character": "છ",
+          "word": "છત્રી",
+          "translation": "Umbrella",
+          "image": "",
+          "emoji": "☂️"
+        },
+        {
+          "id": "gu_j",
+          "character": "જ",
+          "word": "જહાજ",
+          "translation": "Ship",
+          "image": "",
+          "emoji": "🚢"
+        },
+        {
+          "id": "gu_jh",
+          "character": "ઝ",
+          "word": "ઝાડ",
+          "translation": "Tree",
+          "image": "",
+          "emoji": "🌳"
+        },
+        {
+          "id": "gu_tt",
+          "character": "ટ",
+          "word": "ટામેટા",
+          "translation": "Tomato",
+          "image": "",
+          "emoji": "🍅"
+        },
+        {
+          "id": "gu_tth",
+          "character": "ઠ",
+          "word": "ઠગ",
+          "translation": "Cheat",
+          "image": "",
+          "emoji": "🎭"
+        },
+        {
+          "id": "gu_dd",
+          "character": "ડ",
+          "word": "ડમરો",
+          "translation": "Basil plant",
+          "image": "",
+          "emoji": "🌿"
+        },
+        {
+          "id": "gu_ddh",
+          "character": "ઢ",
+          "word": "ઢોલ",
+          "translation": "Drum",
+          "image": "",
+          "emoji": "🥁"
+        },
+        {
+          "id": "gu_t",
+          "character": "ત",
+          "word": "તડબૂચ",
+          "translation": "Watermelon",
+          "image": "",
+          "emoji": "🍉"
+        },
+        {
+          "id": "gu_th",
+          "character": "થ",
+          "word": "થાળી",
+          "translation": "Plate",
+          "image": "",
+          "emoji": "🍽️"
+        },
+        {
+          "id": "gu_d",
+          "character": "દ",
+          "word": "દરવાજો",
+          "translation": "Door",
+          "image": "",
+          "emoji": "🚪"
+        },
+        {
+          "id": "gu_dh",
+          "character": "ધ",
+          "word": "ધનુષ",
+          "translation": "Bow",
+          "image": "",
+          "emoji": "🏹"
+        },
+        {
+          "id": "gu_n",
+          "character": "ન",
+          "word": "નદી",
+          "translation": "River",
+          "image": "",
+          "emoji": "🏞️"
+        },
+        {
+          "id": "gu_p",
+          "character": "પ",
+          "word": "પતંગ",
+          "translation": "Kite",
+          "image": "",
+          "emoji": "🪁"
+        },
+        {
+          "id": "gu_f",
+          "character": "ફ",
+          "word": "ફૂલ",
+          "translation": "Flower",
+          "image": "",
+          "emoji": "🌸"
+        },
+        {
+          "id": "gu_b",
+          "character": "બ",
+          "word": "બકરી",
+          "translation": "Goat",
+          "image": "",
+          "emoji": "🐐"
+        },
+        {
+          "id": "gu_bh",
+          "character": "ભ",
+          "word": "ભાલુ",
+          "translation": "Bear",
+          "image": "",
+          "emoji": "🐻"
+        },
+        {
+          "id": "gu_m",
+          "character": "મ",
+          "word": "મગર",
+          "translation": "Crocodile",
+          "image": "",
+          "emoji": "🐊"
+        },
+        {
+          "id": "gu_y",
+          "character": "ય",
+          "word": "યાદી",
+          "translation": "List",
+          "image": "",
+          "emoji": "📝"
+        },
+        {
+          "id": "gu_r",
+          "character": "ર",
+          "word": "રમકડું",
+          "translation": "Toy",
+          "image": "",
+          "emoji": "🧸"
+        },
+        {
+          "id": "gu_l",
+          "character": "લ",
+          "word": "લખોટી",
+          "translation": "Marble",
+          "image": "",
+          "emoji": "🔵"
+        },
+        {
+          "id": "gu_v",
+          "character": "વ",
+          "word": "વાદળ",
+          "translation": "Cloud",
+          "image": "",
+          "emoji": "☁️"
+        },
+        {
+          "id": "gu_sh",
+          "character": "શ",
+          "word": "શાળા",
+          "translation": "School",
+          "image": "",
+          "emoji": "🏫"
+        },
+        {
+          "id": "gu_ss",
+          "character": "ષ",
+          "word": "ષટકોણ",
+          "translation": "Hexagon",
+          "image": "",
+          "emoji": "🔷"
+        },
+        {
+          "id": "gu_s",
+          "character": "સ",
+          "word": "સફરજન",
+          "translation": "Apple",
+          "image": "",
+          "emoji": "🍎"
+        },
+        {
+          "id": "gu_h",
+          "character": "હ",
+          "word": "હાથી",
+          "translation": "Elephant",
+          "image": "",
+          "emoji": "🐘"
+        }
       ]
     },
     {
       "id": "numbers",
-      "title": "Numbers",
+      "title": "Numbers 1-100",
       "icon": "numbers",
       "items": [
-        { "id": "gu_num_1", "character": "૧", "word": "એક", "translation": "One", "image": "assets/images/gujarati/one.png" },
-        { "id": "gu_num_2", "character": "૨", "word": "બે", "translation": "Two", "image": "assets/images/gujarati/two.png" },
-        { "id": "gu_num_3", "character": "૩", "word": "ત્રણ", "translation": "Three", "image": "assets/images/gujarati/three.png" },
-        { "id": "gu_num_4", "character": "૪", "word": "ચાર", "translation": "Four", "image": "assets/images/gujarati/four.png" },
-        { "id": "gu_num_5", "character": "૫", "word": "પાંચ", "translation": "Five", "image": "assets/images/gujarati/five.png" }
+        {
+          "id": "gu_num_1",
+          "character": "૧",
+          "word": "એક",
+          "translation": "One",
+          "image": ""
+        },
+        {
+          "id": "gu_num_2",
+          "character": "૨",
+          "word": "બે",
+          "translation": "Two",
+          "image": ""
+        },
+        {
+          "id": "gu_num_3",
+          "character": "૩",
+          "word": "ત્રણ",
+          "translation": "Three",
+          "image": ""
+        },
+        {
+          "id": "gu_num_4",
+          "character": "૪",
+          "word": "ચાર",
+          "translation": "Four",
+          "image": ""
+        },
+        {
+          "id": "gu_num_5",
+          "character": "૫",
+          "word": "પાંચ",
+          "translation": "Five",
+          "image": ""
+        },
+        {
+          "id": "gu_num_6",
+          "character": "૬",
+          "word": "છ",
+          "translation": "Six",
+          "image": ""
+        },
+        {
+          "id": "gu_num_7",
+          "character": "૭",
+          "word": "સાત",
+          "translation": "Seven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_8",
+          "character": "૮",
+          "word": "આઠ",
+          "translation": "Eight",
+          "image": ""
+        },
+        {
+          "id": "gu_num_9",
+          "character": "૯",
+          "word": "નવ",
+          "translation": "Nine",
+          "image": ""
+        },
+        {
+          "id": "gu_num_10",
+          "character": "૧૦",
+          "word": "દસ",
+          "translation": "Ten",
+          "image": ""
+        },
+        {
+          "id": "gu_num_11",
+          "character": "૧૧",
+          "word": "અગિયાર",
+          "translation": "Eleven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_12",
+          "character": "૧૨",
+          "word": "બાર",
+          "translation": "Twelve",
+          "image": ""
+        },
+        {
+          "id": "gu_num_13",
+          "character": "૧૩",
+          "word": "તેર",
+          "translation": "Thirteen",
+          "image": ""
+        },
+        {
+          "id": "gu_num_14",
+          "character": "૧૪",
+          "word": "ચૌદ",
+          "translation": "Fourteen",
+          "image": ""
+        },
+        {
+          "id": "gu_num_15",
+          "character": "૧૫",
+          "word": "પંદર",
+          "translation": "Fifteen",
+          "image": ""
+        },
+        {
+          "id": "gu_num_16",
+          "character": "૧૬",
+          "word": "સોળ",
+          "translation": "Sixteen",
+          "image": ""
+        },
+        {
+          "id": "gu_num_17",
+          "character": "૧૭",
+          "word": "સત્તર",
+          "translation": "Seventeen",
+          "image": ""
+        },
+        {
+          "id": "gu_num_18",
+          "character": "૧૮",
+          "word": "અઢાર",
+          "translation": "Eighteen",
+          "image": ""
+        },
+        {
+          "id": "gu_num_19",
+          "character": "૧૯",
+          "word": "ઓગણિસ",
+          "translation": "Nineteen",
+          "image": ""
+        },
+        {
+          "id": "gu_num_20",
+          "character": "૨૦",
+          "word": "વીસ",
+          "translation": "Twenty",
+          "image": ""
+        },
+        {
+          "id": "gu_num_21",
+          "character": "૨૧",
+          "word": "એકવીસ",
+          "translation": "Twenty-One",
+          "image": ""
+        },
+        {
+          "id": "gu_num_22",
+          "character": "૨૨",
+          "word": "બાવીસ",
+          "translation": "Twenty-Two",
+          "image": ""
+        },
+        {
+          "id": "gu_num_23",
+          "character": "૨૩",
+          "word": "તેવીસ",
+          "translation": "Twenty-Three",
+          "image": ""
+        },
+        {
+          "id": "gu_num_24",
+          "character": "૨૪",
+          "word": "ચોવીસ",
+          "translation": "Twenty-Four",
+          "image": ""
+        },
+        {
+          "id": "gu_num_25",
+          "character": "૨૫",
+          "word": "પચ્ચીસ",
+          "translation": "Twenty-Five",
+          "image": ""
+        },
+        {
+          "id": "gu_num_26",
+          "character": "૨૬",
+          "word": "છવીસ",
+          "translation": "Twenty-Six",
+          "image": ""
+        },
+        {
+          "id": "gu_num_27",
+          "character": "૨૭",
+          "word": "સત્તાવીસ",
+          "translation": "Twenty-Seven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_28",
+          "character": "૨૮",
+          "word": "અઠ્ઠાવીસ",
+          "translation": "Twenty-Eight",
+          "image": ""
+        },
+        {
+          "id": "gu_num_29",
+          "character": "૨૯",
+          "word": "ઓગણત્રીસ",
+          "translation": "Twenty-Nine",
+          "image": ""
+        },
+        {
+          "id": "gu_num_30",
+          "character": "૩૦",
+          "word": "ત્રીસ",
+          "translation": "Thirty",
+          "image": ""
+        },
+        {
+          "id": "gu_num_31",
+          "character": "૩૧",
+          "word": "એકત્રીસ",
+          "translation": "Thirty-One",
+          "image": ""
+        },
+        {
+          "id": "gu_num_32",
+          "character": "૩૨",
+          "word": "બત્રીસ",
+          "translation": "Thirty-Two",
+          "image": ""
+        },
+        {
+          "id": "gu_num_33",
+          "character": "૩૩",
+          "word": "તેત્રીસ",
+          "translation": "Thirty-Three",
+          "image": ""
+        },
+        {
+          "id": "gu_num_34",
+          "character": "૩૪",
+          "word": "ચોત્રીસ",
+          "translation": "Thirty-Four",
+          "image": ""
+        },
+        {
+          "id": "gu_num_35",
+          "character": "૩૫",
+          "word": "પાંત્રીસ",
+          "translation": "Thirty-Five",
+          "image": ""
+        },
+        {
+          "id": "gu_num_36",
+          "character": "૩૬",
+          "word": "છત્રીસ",
+          "translation": "Thirty-Six",
+          "image": ""
+        },
+        {
+          "id": "gu_num_37",
+          "character": "૩૭",
+          "word": "સડત્રીસ",
+          "translation": "Thirty-Seven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_38",
+          "character": "૩૮",
+          "word": "અડત્રીસ",
+          "translation": "Thirty-Eight",
+          "image": ""
+        },
+        {
+          "id": "gu_num_39",
+          "character": "૩૯",
+          "word": "ઓગણચાલીસ",
+          "translation": "Thirty-Nine",
+          "image": ""
+        },
+        {
+          "id": "gu_num_40",
+          "character": "૪૦",
+          "word": "ચાલીસ",
+          "translation": "Forty",
+          "image": ""
+        },
+        {
+          "id": "gu_num_41",
+          "character": "૪૧",
+          "word": "એકતાલીસ",
+          "translation": "Forty-One",
+          "image": ""
+        },
+        {
+          "id": "gu_num_42",
+          "character": "૪૨",
+          "word": "બેતાલીસ",
+          "translation": "Forty-Two",
+          "image": ""
+        },
+        {
+          "id": "gu_num_43",
+          "character": "૪૩",
+          "word": "ત્રેતાલીસ",
+          "translation": "Forty-Three",
+          "image": ""
+        },
+        {
+          "id": "gu_num_44",
+          "character": "૪૪",
+          "word": "ચુંમાલીસ",
+          "translation": "Forty-Four",
+          "image": ""
+        },
+        {
+          "id": "gu_num_45",
+          "character": "૪૫",
+          "word": "પિસ્તાલીસ",
+          "translation": "Forty-Five",
+          "image": ""
+        },
+        {
+          "id": "gu_num_46",
+          "character": "૪૬",
+          "word": "છેતાલીસ",
+          "translation": "Forty-Six",
+          "image": ""
+        },
+        {
+          "id": "gu_num_47",
+          "character": "૪૭",
+          "word": "સુડતાલીસ",
+          "translation": "Forty-Seven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_48",
+          "character": "૪૮",
+          "word": "અડતાલીસ",
+          "translation": "Forty-Eight",
+          "image": ""
+        },
+        {
+          "id": "gu_num_49",
+          "character": "૪૯",
+          "word": "ઓગણપચાસ",
+          "translation": "Forty-Nine",
+          "image": ""
+        },
+        {
+          "id": "gu_num_50",
+          "character": "૫૦",
+          "word": "પચાસ",
+          "translation": "Fifty",
+          "image": ""
+        },
+        {
+          "id": "gu_num_51",
+          "character": "૫૧",
+          "word": "એકાવન",
+          "translation": "Fifty-One",
+          "image": ""
+        },
+        {
+          "id": "gu_num_52",
+          "character": "૫૨",
+          "word": "બાવન",
+          "translation": "Fifty-Two",
+          "image": ""
+        },
+        {
+          "id": "gu_num_53",
+          "character": "૫૩",
+          "word": "ત્રેપન",
+          "translation": "Fifty-Three",
+          "image": ""
+        },
+        {
+          "id": "gu_num_54",
+          "character": "૫૪",
+          "word": "ચોપન",
+          "translation": "Fifty-Four",
+          "image": ""
+        },
+        {
+          "id": "gu_num_55",
+          "character": "૫૫",
+          "word": "પંચાવન",
+          "translation": "Fifty-Five",
+          "image": ""
+        },
+        {
+          "id": "gu_num_56",
+          "character": "૫૬",
+          "word": "છપ્પન",
+          "translation": "Fifty-Six",
+          "image": ""
+        },
+        {
+          "id": "gu_num_57",
+          "character": "૫૭",
+          "word": "સત્તાવન",
+          "translation": "Fifty-Seven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_58",
+          "character": "૫૮",
+          "word": "અઠ્ઠાવન",
+          "translation": "Fifty-Eight",
+          "image": ""
+        },
+        {
+          "id": "gu_num_59",
+          "character": "૫૯",
+          "word": "ઓગણસાઠ",
+          "translation": "Fifty-Nine",
+          "image": ""
+        },
+        {
+          "id": "gu_num_60",
+          "character": "૬૦",
+          "word": "સાઈઠ",
+          "translation": "Sixty",
+          "image": ""
+        },
+        {
+          "id": "gu_num_61",
+          "character": "૬૧",
+          "word": "એકસઠ",
+          "translation": "Sixty-One",
+          "image": ""
+        },
+        {
+          "id": "gu_num_62",
+          "character": "૬૨",
+          "word": "બાસઠ",
+          "translation": "Sixty-Two",
+          "image": ""
+        },
+        {
+          "id": "gu_num_63",
+          "character": "૬૩",
+          "word": "ત્રેસઠ",
+          "translation": "Sixty-Three",
+          "image": ""
+        },
+        {
+          "id": "gu_num_64",
+          "character": "૬૪",
+          "word": "ચોસઠ",
+          "translation": "Sixty-Four",
+          "image": ""
+        },
+        {
+          "id": "gu_num_65",
+          "character": "૬૫",
+          "word": "પાંસઠ",
+          "translation": "Sixty-Five",
+          "image": ""
+        },
+        {
+          "id": "gu_num_66",
+          "character": "૬૬",
+          "word": "છાસઠ",
+          "translation": "Sixty-Six",
+          "image": ""
+        },
+        {
+          "id": "gu_num_67",
+          "character": "૬૭",
+          "word": "સડસઠ",
+          "translation": "Sixty-Seven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_68",
+          "character": "૬૮",
+          "word": "અડસઠ",
+          "translation": "Sixty-Eight",
+          "image": ""
+        },
+        {
+          "id": "gu_num_69",
+          "character": "૬૯",
+          "word": "અગણોસિત્તેર",
+          "translation": "Sixty-Nine",
+          "image": ""
+        },
+        {
+          "id": "gu_num_70",
+          "character": "૭૦",
+          "word": "સિત્તેર",
+          "translation": "Seventy",
+          "image": ""
+        },
+        {
+          "id": "gu_num_71",
+          "character": "૭૧",
+          "word": "એકોતેર",
+          "translation": "Seventy-One",
+          "image": ""
+        },
+        {
+          "id": "gu_num_72",
+          "character": "૭૨",
+          "word": "બોતેર",
+          "translation": "Seventy-Two",
+          "image": ""
+        },
+        {
+          "id": "gu_num_73",
+          "character": "૭૩",
+          "word": "તોતેર",
+          "translation": "Seventy-Three",
+          "image": ""
+        },
+        {
+          "id": "gu_num_74",
+          "character": "૭૪",
+          "word": "ચુમોતેર",
+          "translation": "Seventy-Four",
+          "image": ""
+        },
+        {
+          "id": "gu_num_75",
+          "character": "૭૫",
+          "word": "પંચોતેર",
+          "translation": "Seventy-Five",
+          "image": ""
+        },
+        {
+          "id": "gu_num_76",
+          "character": "૭૬",
+          "word": "છોતેર",
+          "translation": "Seventy-Six",
+          "image": ""
+        },
+        {
+          "id": "gu_num_77",
+          "character": "૭૭",
+          "word": "સિત્યોતેર",
+          "translation": "Seventy-Seven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_78",
+          "character": "૭૮",
+          "word": "ઇઠ્યોતેર",
+          "translation": "Seventy-Eight",
+          "image": ""
+        },
+        {
+          "id": "gu_num_79",
+          "character": "૭૯",
+          "word": "ઓગણાએંસી",
+          "translation": "Seventy-Nine",
+          "image": ""
+        },
+        {
+          "id": "gu_num_80",
+          "character": "૮૦",
+          "word": "એંસી",
+          "translation": "Eighty",
+          "image": ""
+        },
+        {
+          "id": "gu_num_81",
+          "character": "૮૧",
+          "word": "એક્યાસી",
+          "translation": "Eighty-One",
+          "image": ""
+        },
+        {
+          "id": "gu_num_82",
+          "character": "૮૨",
+          "word": "બ્યાસી",
+          "translation": "Eighty-Two",
+          "image": ""
+        },
+        {
+          "id": "gu_num_83",
+          "character": "૮૩",
+          "word": "ત્યાસી",
+          "translation": "Eighty-Three",
+          "image": ""
+        },
+        {
+          "id": "gu_num_84",
+          "character": "૮૪",
+          "word": "ચોર્યાસી",
+          "translation": "Eighty-Four",
+          "image": ""
+        },
+        {
+          "id": "gu_num_85",
+          "character": "૮૫",
+          "word": "પંચાસી",
+          "translation": "Eighty-Five",
+          "image": ""
+        },
+        {
+          "id": "gu_num_86",
+          "character": "૮૬",
+          "word": "છ્યાસી",
+          "translation": "Eighty-Six",
+          "image": ""
+        },
+        {
+          "id": "gu_num_87",
+          "character": "૮૭",
+          "word": "સિત્યાસી",
+          "translation": "Eighty-Seven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_88",
+          "character": "૮૮",
+          "word": "ઈઠ્યાસી",
+          "translation": "Eighty-Eight",
+          "image": ""
+        },
+        {
+          "id": "gu_num_89",
+          "character": "૮૯",
+          "word": "નેવ્યાસી",
+          "translation": "Eighty-Nine",
+          "image": ""
+        },
+        {
+          "id": "gu_num_90",
+          "character": "૯૦",
+          "word": "નેવું",
+          "translation": "Ninety",
+          "image": ""
+        },
+        {
+          "id": "gu_num_91",
+          "character": "૯૧",
+          "word": "એકાણું",
+          "translation": "Ninety-One",
+          "image": ""
+        },
+        {
+          "id": "gu_num_92",
+          "character": "૯૨",
+          "word": "બાણું",
+          "translation": "Ninety-Two",
+          "image": ""
+        },
+        {
+          "id": "gu_num_93",
+          "character": "૯૩",
+          "word": "ત્રાણું",
+          "translation": "Ninety-Three",
+          "image": ""
+        },
+        {
+          "id": "gu_num_94",
+          "character": "૯૪",
+          "word": "ચોરાણું",
+          "translation": "Ninety-Four",
+          "image": ""
+        },
+        {
+          "id": "gu_num_95",
+          "character": "૯૫",
+          "word": "પંચાણું",
+          "translation": "Ninety-Five",
+          "image": ""
+        },
+        {
+          "id": "gu_num_96",
+          "character": "૯૬",
+          "word": "છન્નું",
+          "translation": "Ninety-Six",
+          "image": ""
+        },
+        {
+          "id": "gu_num_97",
+          "character": "૯૭",
+          "word": "સત્તાણું",
+          "translation": "Ninety-Seven",
+          "image": ""
+        },
+        {
+          "id": "gu_num_98",
+          "character": "૯૮",
+          "word": "અઠ્ઠાણું",
+          "translation": "Ninety-Eight",
+          "image": ""
+        },
+        {
+          "id": "gu_num_99",
+          "character": "૯૯",
+          "word": "નવ્વાણું",
+          "translation": "Ninety-Nine",
+          "image": ""
+        },
+        {
+          "id": "gu_num_100",
+          "character": "૧૦૦",
+          "word": "સો",
+          "translation": "One Hundred",
+          "image": ""
+        }
       ]
     },
     {
@@ -57,10 +1042,90 @@
       "title": "Colors",
       "icon": "palette",
       "items": [
-        { "id": "gu_col_red", "character": "🔴", "word": "લાલ", "translation": "Red", "image": "assets/images/gujarati/red.png" },
-        { "id": "gu_col_blue", "character": "🔵", "word": "ભૂરો", "translation": "Blue", "image": "assets/images/gujarati/blue.png" },
-        { "id": "gu_col_green", "character": "🟢", "word": "લીલો", "translation": "Green", "image": "assets/images/gujarati/green.png" },
-        { "id": "gu_col_yellow", "character": "🟡", "word": "પીળો", "translation": "Yellow", "image": "assets/images/gujarati/yellow.png" }
+        {
+          "id": "gu_colors_red",
+          "character": "🔴",
+          "word": "લાલ",
+          "translation": "Red",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_blue",
+          "character": "🔵",
+          "word": "વાદળી",
+          "translation": "Blue",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_green",
+          "character": "🟢",
+          "word": "લીલો",
+          "translation": "Green",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_yellow",
+          "character": "🟡",
+          "word": "પીળો",
+          "translation": "Yellow",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_orange",
+          "character": "🟠",
+          "word": "નારંગી",
+          "translation": "Orange",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_purple",
+          "character": "🟣",
+          "word": "જાંબલી",
+          "translation": "Purple",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_pink",
+          "character": "🩷",
+          "word": "ગુલાબી",
+          "translation": "Pink",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_black",
+          "character": "⚫",
+          "word": "કાળો",
+          "translation": "Black",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_white",
+          "character": "⚪",
+          "word": "સફેદ",
+          "translation": "White",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_brown",
+          "character": "🟤",
+          "word": "બદામી",
+          "translation": "Brown",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_grey",
+          "character": "🩶",
+          "word": "રાખોડી",
+          "translation": "Grey",
+          "image": ""
+        },
+        {
+          "id": "gu_colors_gold",
+          "character": "🥇",
+          "word": "સોનેરી",
+          "translation": "Gold",
+          "image": ""
+        }
       ]
     },
     {
@@ -68,10 +1133,181 @@
       "title": "Animals",
       "icon": "pets",
       "items": [
-        { "id": "gu_an_cow", "character": "🐄", "word": "ગાય", "translation": "Cow", "image": "assets/images/gujarati/cow.png" },
-        { "id": "gu_an_goat", "character": "🐐", "word": "બકરી", "translation": "Goat", "image": "assets/images/gujarati/goat.png" },
-        { "id": "gu_an_horse", "character": "🐎", "word": "ઘોડો", "translation": "Horse", "image": "assets/images/gujarati/horse.png" },
-        { "id": "gu_an_dog", "character": "🐕", "word": "કૂતરો", "translation": "Dog", "image": "assets/images/gujarati/dog.png" }
+        {
+          "id": "gu_animals_lion",
+          "character": "🦁",
+          "word": "સિંહ",
+          "translation": "Lion",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_tiger",
+          "character": "🐯",
+          "word": "વાઘ",
+          "translation": "Tiger",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_elephant",
+          "character": "🐘",
+          "word": "હાથી",
+          "translation": "Elephant",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_monkey",
+          "character": "🐒",
+          "word": "વાંદરો",
+          "translation": "Monkey",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_bear",
+          "character": "🐻",
+          "word": "રીંછ",
+          "translation": "Bear",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_deer",
+          "character": "🦌",
+          "word": "હરણ",
+          "translation": "Deer",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_horse",
+          "character": "🐎",
+          "word": "ઘોડો",
+          "translation": "Horse",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_cow",
+          "character": "🐄",
+          "word": "ગાય",
+          "translation": "Cow",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_goat",
+          "character": "🐐",
+          "word": "બકરી",
+          "translation": "Goat",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_dog",
+          "character": "🐕",
+          "word": "કૂતરો",
+          "translation": "Dog",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_cat",
+          "character": "🐈",
+          "word": "બિલાડી",
+          "translation": "Cat",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_camel",
+          "character": "🐫",
+          "word": "ઊંટ",
+          "translation": "Camel",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_rabbit",
+          "character": "🐇",
+          "word": "સસલું",
+          "translation": "Rabbit",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_fox",
+          "character": "🦊",
+          "word": "શિયાળ",
+          "translation": "Fox",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_wolf",
+          "character": "🐺",
+          "word": "વરુ",
+          "translation": "Wolf",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_buffalo",
+          "character": "🐃",
+          "word": "ભેંસ",
+          "translation": "Buffalo",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_donkey",
+          "character": "🫏",
+          "word": "ગધેડો",
+          "translation": "Donkey",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_pig",
+          "character": "🐖",
+          "word": "ડુક્કર",
+          "translation": "Pig",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_sheep",
+          "character": "🐑",
+          "word": "ઘેટું",
+          "translation": "Sheep",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_crocodile",
+          "character": "🐊",
+          "word": "મગર",
+          "translation": "Crocodile",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_snake",
+          "character": "🐍",
+          "word": "સાપ",
+          "translation": "Snake",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_peacock",
+          "character": "🦚",
+          "word": "મોર",
+          "translation": "Peacock",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_parrot",
+          "character": "🦜",
+          "word": "પોપટ",
+          "translation": "Parrot",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_giraffe",
+          "character": "🦒",
+          "word": "જિરાફ",
+          "translation": "Giraffe",
+          "image": ""
+        },
+        {
+          "id": "gu_animals_frog",
+          "character": "🐸",
+          "word": "દેડકો",
+          "translation": "Frog",
+          "image": ""
+        }
       ]
     }
   ]

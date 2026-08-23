@@ -5,31 +5,924 @@
   "categories": [
     {
       "id": "alphabet",
-      "title": "English Alphabet",
+      "title": "Alphabet",
       "icon": "abc",
       "items": [
-        { "id": "en_a", "character": "A", "word": "Apple", "translation": "Apple", "image": "assets/images/english/apple.png" },
-        { "id": "en_b", "character": "B", "word": "Ball", "translation": "Ball", "image": "assets/images/english/ball.png" },
-        { "id": "en_c", "character": "C", "word": "Cat", "translation": "Cat", "image": "assets/images/english/cat.png" },
-        { "id": "en_d", "character": "D", "word": "Dog", "translation": "Dog", "image": "assets/images/english/dog.png" },
-        { "id": "en_e", "character": "E", "word": "Elephant", "translation": "Elephant", "image": "assets/images/english/elephant.png" },
-        { "id": "en_f", "character": "F", "word": "Fish", "translation": "Fish", "image": "assets/images/english/fish.png" },
-        { "id": "en_g", "character": "G", "word": "Grapes", "translation": "Grapes", "image": "assets/images/english/grapes.png" },
-        { "id": "en_h", "character": "H", "word": "House", "translation": "House", "image": "assets/images/english/house.png" },
-        { "id": "en_i", "character": "I", "word": "Ice Cream", "translation": "Ice Cream", "image": "assets/images/english/icecream.png" },
-        { "id": "en_j", "character": "J", "word": "Jug", "translation": "Jug", "image": "assets/images/english/jug.png" }
+        {
+          "id": "en_a",
+          "character": "A",
+          "word": "Apple",
+          "translation": "Apple",
+          "image": "",
+          "emoji": "🍎"
+        },
+        {
+          "id": "en_b",
+          "character": "B",
+          "word": "Ball",
+          "translation": "Ball",
+          "image": "",
+          "emoji": "⚽"
+        },
+        {
+          "id": "en_c",
+          "character": "C",
+          "word": "Cat",
+          "translation": "Cat",
+          "image": "",
+          "emoji": "🐱"
+        },
+        {
+          "id": "en_d",
+          "character": "D",
+          "word": "Dog",
+          "translation": "Dog",
+          "image": "",
+          "emoji": "🐶"
+        },
+        {
+          "id": "en_e",
+          "character": "E",
+          "word": "Elephant",
+          "translation": "Elephant",
+          "image": "",
+          "emoji": "🐘"
+        },
+        {
+          "id": "en_f",
+          "character": "F",
+          "word": "Fish",
+          "translation": "Fish",
+          "image": "",
+          "emoji": "🐟"
+        },
+        {
+          "id": "en_g",
+          "character": "G",
+          "word": "Grapes",
+          "translation": "Grapes",
+          "image": "",
+          "emoji": "🍇"
+        },
+        {
+          "id": "en_h",
+          "character": "H",
+          "word": "House",
+          "translation": "House",
+          "image": "",
+          "emoji": "🏠"
+        },
+        {
+          "id": "en_i",
+          "character": "I",
+          "word": "Ice Cream",
+          "translation": "Ice Cream",
+          "image": "",
+          "emoji": "🍨"
+        },
+        {
+          "id": "en_j",
+          "character": "J",
+          "word": "Jug",
+          "translation": "Jug",
+          "image": "",
+          "emoji": "🫙"
+        },
+        {
+          "id": "en_k",
+          "character": "K",
+          "word": "Kite",
+          "translation": "Kite",
+          "image": "",
+          "emoji": "🪁"
+        },
+        {
+          "id": "en_l",
+          "character": "L",
+          "word": "Lion",
+          "translation": "Lion",
+          "image": "",
+          "emoji": "🦁"
+        },
+        {
+          "id": "en_m",
+          "character": "M",
+          "word": "Monkey",
+          "translation": "Monkey",
+          "image": "",
+          "emoji": "🐒"
+        },
+        {
+          "id": "en_n",
+          "character": "N",
+          "word": "Nest",
+          "translation": "Nest",
+          "image": "",
+          "emoji": "🪺"
+        },
+        {
+          "id": "en_o",
+          "character": "O",
+          "word": "Orange",
+          "translation": "Orange",
+          "image": "",
+          "emoji": "🍊"
+        },
+        {
+          "id": "en_p",
+          "character": "P",
+          "word": "Parrot",
+          "translation": "Parrot",
+          "image": "",
+          "emoji": "🦜"
+        },
+        {
+          "id": "en_q",
+          "character": "Q",
+          "word": "Queen",
+          "translation": "Queen",
+          "image": "",
+          "emoji": "👸"
+        },
+        {
+          "id": "en_r",
+          "character": "R",
+          "word": "Rabbit",
+          "translation": "Rabbit",
+          "image": "",
+          "emoji": "🐰"
+        },
+        {
+          "id": "en_s",
+          "character": "S",
+          "word": "Sun",
+          "translation": "Sun",
+          "image": "",
+          "emoji": "☀️"
+        },
+        {
+          "id": "en_t",
+          "character": "T",
+          "word": "Tiger",
+          "translation": "Tiger",
+          "image": "",
+          "emoji": "🐯"
+        },
+        {
+          "id": "en_u",
+          "character": "U",
+          "word": "Umbrella",
+          "translation": "Umbrella",
+          "image": "",
+          "emoji": "☂️"
+        },
+        {
+          "id": "en_v",
+          "character": "V",
+          "word": "Van",
+          "translation": "Van",
+          "image": "",
+          "emoji": "🚐"
+        },
+        {
+          "id": "en_w",
+          "character": "W",
+          "word": "Watch",
+          "translation": "Watch",
+          "image": "",
+          "emoji": "⌚"
+        },
+        {
+          "id": "en_x",
+          "character": "X",
+          "word": "Xylophone",
+          "translation": "Xylophone",
+          "image": "",
+          "emoji": "🎹"
+        },
+        {
+          "id": "en_y",
+          "character": "Y",
+          "word": "Yo-yo",
+          "translation": "Yo-yo",
+          "image": "",
+          "emoji": "🪀"
+        },
+        {
+          "id": "en_z",
+          "character": "Z",
+          "word": "Zebra",
+          "translation": "Zebra",
+          "image": "",
+          "emoji": "🦓"
+        }
       ]
     },
     {
       "id": "numbers",
-      "title": "Numbers",
+      "title": "Numbers 1-100",
       "icon": "numbers",
       "items": [
-        { "id": "en_num_1", "character": "1", "word": "One", "translation": "One", "image": "assets/images/english/one.png" },
-        { "id": "en_num_2", "character": "2", "word": "Two", "translation": "Two", "image": "assets/images/english/two.png" },
-        { "id": "en_num_3", "character": "3", "word": "Three", "translation": "Three", "image": "assets/images/english/three.png" },
-        { "id": "en_num_4", "character": "4", "word": "Four", "translation": "Four", "image": "assets/images/english/four.png" },
-        { "id": "en_num_5", "character": "5", "word": "Five", "translation": "Five", "image": "assets/images/english/five.png" }
+        {
+          "id": "en_num_1",
+          "character": "1",
+          "word": "One",
+          "translation": "One",
+          "image": ""
+        },
+        {
+          "id": "en_num_2",
+          "character": "2",
+          "word": "Two",
+          "translation": "Two",
+          "image": ""
+        },
+        {
+          "id": "en_num_3",
+          "character": "3",
+          "word": "Three",
+          "translation": "Three",
+          "image": ""
+        },
+        {
+          "id": "en_num_4",
+          "character": "4",
+          "word": "Four",
+          "translation": "Four",
+          "image": ""
+        },
+        {
+          "id": "en_num_5",
+          "character": "5",
+          "word": "Five",
+          "translation": "Five",
+          "image": ""
+        },
+        {
+          "id": "en_num_6",
+          "character": "6",
+          "word": "Six",
+          "translation": "Six",
+          "image": ""
+        },
+        {
+          "id": "en_num_7",
+          "character": "7",
+          "word": "Seven",
+          "translation": "Seven",
+          "image": ""
+        },
+        {
+          "id": "en_num_8",
+          "character": "8",
+          "word": "Eight",
+          "translation": "Eight",
+          "image": ""
+        },
+        {
+          "id": "en_num_9",
+          "character": "9",
+          "word": "Nine",
+          "translation": "Nine",
+          "image": ""
+        },
+        {
+          "id": "en_num_10",
+          "character": "10",
+          "word": "Ten",
+          "translation": "Ten",
+          "image": ""
+        },
+        {
+          "id": "en_num_11",
+          "character": "11",
+          "word": "Eleven",
+          "translation": "Eleven",
+          "image": ""
+        },
+        {
+          "id": "en_num_12",
+          "character": "12",
+          "word": "Twelve",
+          "translation": "Twelve",
+          "image": ""
+        },
+        {
+          "id": "en_num_13",
+          "character": "13",
+          "word": "Thirteen",
+          "translation": "Thirteen",
+          "image": ""
+        },
+        {
+          "id": "en_num_14",
+          "character": "14",
+          "word": "Fourteen",
+          "translation": "Fourteen",
+          "image": ""
+        },
+        {
+          "id": "en_num_15",
+          "character": "15",
+          "word": "Fifteen",
+          "translation": "Fifteen",
+          "image": ""
+        },
+        {
+          "id": "en_num_16",
+          "character": "16",
+          "word": "Sixteen",
+          "translation": "Sixteen",
+          "image": ""
+        },
+        {
+          "id": "en_num_17",
+          "character": "17",
+          "word": "Seventeen",
+          "translation": "Seventeen",
+          "image": ""
+        },
+        {
+          "id": "en_num_18",
+          "character": "18",
+          "word": "Eighteen",
+          "translation": "Eighteen",
+          "image": ""
+        },
+        {
+          "id": "en_num_19",
+          "character": "19",
+          "word": "Nineteen",
+          "translation": "Nineteen",
+          "image": ""
+        },
+        {
+          "id": "en_num_20",
+          "character": "20",
+          "word": "Twenty",
+          "translation": "Twenty",
+          "image": ""
+        },
+        {
+          "id": "en_num_21",
+          "character": "21",
+          "word": "Twenty-One",
+          "translation": "Twenty-One",
+          "image": ""
+        },
+        {
+          "id": "en_num_22",
+          "character": "22",
+          "word": "Twenty-Two",
+          "translation": "Twenty-Two",
+          "image": ""
+        },
+        {
+          "id": "en_num_23",
+          "character": "23",
+          "word": "Twenty-Three",
+          "translation": "Twenty-Three",
+          "image": ""
+        },
+        {
+          "id": "en_num_24",
+          "character": "24",
+          "word": "Twenty-Four",
+          "translation": "Twenty-Four",
+          "image": ""
+        },
+        {
+          "id": "en_num_25",
+          "character": "25",
+          "word": "Twenty-Five",
+          "translation": "Twenty-Five",
+          "image": ""
+        },
+        {
+          "id": "en_num_26",
+          "character": "26",
+          "word": "Twenty-Six",
+          "translation": "Twenty-Six",
+          "image": ""
+        },
+        {
+          "id": "en_num_27",
+          "character": "27",
+          "word": "Twenty-Seven",
+          "translation": "Twenty-Seven",
+          "image": ""
+        },
+        {
+          "id": "en_num_28",
+          "character": "28",
+          "word": "Twenty-Eight",
+          "translation": "Twenty-Eight",
+          "image": ""
+        },
+        {
+          "id": "en_num_29",
+          "character": "29",
+          "word": "Twenty-Nine",
+          "translation": "Twenty-Nine",
+          "image": ""
+        },
+        {
+          "id": "en_num_30",
+          "character": "30",
+          "word": "Thirty",
+          "translation": "Thirty",
+          "image": ""
+        },
+        {
+          "id": "en_num_31",
+          "character": "31",
+          "word": "Thirty-One",
+          "translation": "Thirty-One",
+          "image": ""
+        },
+        {
+          "id": "en_num_32",
+          "character": "32",
+          "word": "Thirty-Two",
+          "translation": "Thirty-Two",
+          "image": ""
+        },
+        {
+          "id": "en_num_33",
+          "character": "33",
+          "word": "Thirty-Three",
+          "translation": "Thirty-Three",
+          "image": ""
+        },
+        {
+          "id": "en_num_34",
+          "character": "34",
+          "word": "Thirty-Four",
+          "translation": "Thirty-Four",
+          "image": ""
+        },
+        {
+          "id": "en_num_35",
+          "character": "35",
+          "word": "Thirty-Five",
+          "translation": "Thirty-Five",
+          "image": ""
+        },
+        {
+          "id": "en_num_36",
+          "character": "36",
+          "word": "Thirty-Six",
+          "translation": "Thirty-Six",
+          "image": ""
+        },
+        {
+          "id": "en_num_37",
+          "character": "37",
+          "word": "Thirty-Seven",
+          "translation": "Thirty-Seven",
+          "image": ""
+        },
+        {
+          "id": "en_num_38",
+          "character": "38",
+          "word": "Thirty-Eight",
+          "translation": "Thirty-Eight",
+          "image": ""
+        },
+        {
+          "id": "en_num_39",
+          "character": "39",
+          "word": "Thirty-Nine",
+          "translation": "Thirty-Nine",
+          "image": ""
+        },
+        {
+          "id": "en_num_40",
+          "character": "40",
+          "word": "Forty",
+          "translation": "Forty",
+          "image": ""
+        },
+        {
+          "id": "en_num_41",
+          "character": "41",
+          "word": "Forty-One",
+          "translation": "Forty-One",
+          "image": ""
+        },
+        {
+          "id": "en_num_42",
+          "character": "42",
+          "word": "Forty-Two",
+          "translation": "Forty-Two",
+          "image": ""
+        },
+        {
+          "id": "en_num_43",
+          "character": "43",
+          "word": "Forty-Three",
+          "translation": "Forty-Three",
+          "image": ""
+        },
+        {
+          "id": "en_num_44",
+          "character": "44",
+          "word": "Forty-Four",
+          "translation": "Forty-Four",
+          "image": ""
+        },
+        {
+          "id": "en_num_45",
+          "character": "45",
+          "word": "Forty-Five",
+          "translation": "Forty-Five",
+          "image": ""
+        },
+        {
+          "id": "en_num_46",
+          "character": "46",
+          "word": "Forty-Six",
+          "translation": "Forty-Six",
+          "image": ""
+        },
+        {
+          "id": "en_num_47",
+          "character": "47",
+          "word": "Forty-Seven",
+          "translation": "Forty-Seven",
+          "image": ""
+        },
+        {
+          "id": "en_num_48",
+          "character": "48",
+          "word": "Forty-Eight",
+          "translation": "Forty-Eight",
+          "image": ""
+        },
+        {
+          "id": "en_num_49",
+          "character": "49",
+          "word": "Forty-Nine",
+          "translation": "Forty-Nine",
+          "image": ""
+        },
+        {
+          "id": "en_num_50",
+          "character": "50",
+          "word": "Fifty",
+          "translation": "Fifty",
+          "image": ""
+        },
+        {
+          "id": "en_num_51",
+          "character": "51",
+          "word": "Fifty-One",
+          "translation": "Fifty-One",
+          "image": ""
+        },
+        {
+          "id": "en_num_52",
+          "character": "52",
+          "word": "Fifty-Two",
+          "translation": "Fifty-Two",
+          "image": ""
+        },
+        {
+          "id": "en_num_53",
+          "character": "53",
+          "word": "Fifty-Three",
+          "translation": "Fifty-Three",
+          "image": ""
+        },
+        {
+          "id": "en_num_54",
+          "character": "54",
+          "word": "Fifty-Four",
+          "translation": "Fifty-Four",
+          "image": ""
+        },
+        {
+          "id": "en_num_55",
+          "character": "55",
+          "word": "Fifty-Five",
+          "translation": "Fifty-Five",
+          "image": ""
+        },
+        {
+          "id": "en_num_56",
+          "character": "56",
+          "word": "Fifty-Six",
+          "translation": "Fifty-Six",
+          "image": ""
+        },
+        {
+          "id": "en_num_57",
+          "character": "57",
+          "word": "Fifty-Seven",
+          "translation": "Fifty-Seven",
+          "image": ""
+        },
+        {
+          "id": "en_num_58",
+          "character": "58",
+          "word": "Fifty-Eight",
+          "translation": "Fifty-Eight",
+          "image": ""
+        },
+        {
+          "id": "en_num_59",
+          "character": "59",
+          "word": "Fifty-Nine",
+          "translation": "Fifty-Nine",
+          "image": ""
+        },
+        {
+          "id": "en_num_60",
+          "character": "60",
+          "word": "Sixty",
+          "translation": "Sixty",
+          "image": ""
+        },
+        {
+          "id": "en_num_61",
+          "character": "61",
+          "word": "Sixty-One",
+          "translation": "Sixty-One",
+          "image": ""
+        },
+        {
+          "id": "en_num_62",
+          "character": "62",
+          "word": "Sixty-Two",
+          "translation": "Sixty-Two",
+          "image": ""
+        },
+        {
+          "id": "en_num_63",
+          "character": "63",
+          "word": "Sixty-Three",
+          "translation": "Sixty-Three",
+          "image": ""
+        },
+        {
+          "id": "en_num_64",
+          "character": "64",
+          "word": "Sixty-Four",
+          "translation": "Sixty-Four",
+          "image": ""
+        },
+        {
+          "id": "en_num_65",
+          "character": "65",
+          "word": "Sixty-Five",
+          "translation": "Sixty-Five",
+          "image": ""
+        },
+        {
+          "id": "en_num_66",
+          "character": "66",
+          "word": "Sixty-Six",
+          "translation": "Sixty-Six",
+          "image": ""
+        },
+        {
+          "id": "en_num_67",
+          "character": "67",
+          "word": "Sixty-Seven",
+          "translation": "Sixty-Seven",
+          "image": ""
+        },
+        {
+          "id": "en_num_68",
+          "character": "68",
+          "word": "Sixty-Eight",
+          "translation": "Sixty-Eight",
+          "image": ""
+        },
+        {
+          "id": "en_num_69",
+          "character": "69",
+          "word": "Sixty-Nine",
+          "translation": "Sixty-Nine",
+          "image": ""
+        },
+        {
+          "id": "en_num_70",
+          "character": "70",
+          "word": "Seventy",
+          "translation": "Seventy",
+          "image": ""
+        },
+        {
+          "id": "en_num_71",
+          "character": "71",
+          "word": "Seventy-One",
+          "translation": "Seventy-One",
+          "image": ""
+        },
+        {
+          "id": "en_num_72",
+          "character": "72",
+          "word": "Seventy-Two",
+          "translation": "Seventy-Two",
+          "image": ""
+        },
+        {
+          "id": "en_num_73",
+          "character": "73",
+          "word": "Seventy-Three",
+          "translation": "Seventy-Three",
+          "image": ""
+        },
+        {
+          "id": "en_num_74",
+          "character": "74",
+          "word": "Seventy-Four",
+          "translation": "Seventy-Four",
+          "image": ""
+        },
+        {
+          "id": "en_num_75",
+          "character": "75",
+          "word": "Seventy-Five",
+          "translation": "Seventy-Five",
+          "image": ""
+        },
+        {
+          "id": "en_num_76",
+          "character": "76",
+          "word": "Seventy-Six",
+          "translation": "Seventy-Six",
+          "image": ""
+        },
+        {
+          "id": "en_num_77",
+          "character": "77",
+          "word": "Seventy-Seven",
+          "translation": "Seventy-Seven",
+          "image": ""
+        },
+        {
+          "id": "en_num_78",
+          "character": "78",
+          "word": "Seventy-Eight",
+          "translation": "Seventy-Eight",
+          "image": ""
+        },
+        {
+          "id": "en_num_79",
+          "character": "79",
+          "word": "Seventy-Nine",
+          "translation": "Seventy-Nine",
+          "image": ""
+        },
+        {
+          "id": "en_num_80",
+          "character": "80",
+          "word": "Eighty",
+          "translation": "Eighty",
+          "image": ""
+        },
+        {
+          "id": "en_num_81",
+          "character": "81",
+          "word": "Eighty-One",
+          "translation": "Eighty-One",
+          "image": ""
+        },
+        {
+          "id": "en_num_82",
+          "character": "82",
+          "word": "Eighty-Two",
+          "translation": "Eighty-Two",
+          "image": ""
+        },
+        {
+          "id": "en_num_83",
+          "character": "83",
+          "word": "Eighty-Three",
+          "translation": "Eighty-Three",
+          "image": ""
+        },
+        {
+          "id": "en_num_84",
+          "character": "84",
+          "word": "Eighty-Four",
+          "translation": "Eighty-Four",
+          "image": ""
+        },
+        {
+          "id": "en_num_85",
+          "character": "85",
+          "word": "Eighty-Five",
+          "translation": "Eighty-Five",
+          "image": ""
+        },
+        {
+          "id": "en_num_86",
+          "character": "86",
+          "word": "Eighty-Six",
+          "translation": "Eighty-Six",
+          "image": ""
+        },
+        {
+          "id": "en_num_87",
+          "character": "87",
+          "word": "Eighty-Seven",
+          "translation": "Eighty-Seven",
+          "image": ""
+        },
+        {
+          "id": "en_num_88",
+          "character": "88",
+          "word": "Eighty-Eight",
+          "translation": "Eighty-Eight",
+          "image": ""
+        },
+        {
+          "id": "en_num_89",
+          "character": "89",
+          "word": "Eighty-Nine",
+          "translation": "Eighty-Nine",
+          "image": ""
+        },
+        {
+          "id": "en_num_90",
+          "character": "90",
+          "word": "Ninety",
+          "translation": "Ninety",
+          "image": ""
+        },
+        {
+          "id": "en_num_91",
+          "character": "91",
+          "word": "Ninety-One",
+          "translation": "Ninety-One",
+          "image": ""
+        },
+        {
+          "id": "en_num_92",
+          "character": "92",
+          "word": "Ninety-Two",
+          "translation": "Ninety-Two",
+          "image": ""
+        },
+        {
+          "id": "en_num_93",
+          "character": "93",
+          "word": "Ninety-Three",
+          "translation": "Ninety-Three",
+          "image": ""
+        },
+        {
+          "id": "en_num_94",
+          "character": "94",
+          "word": "Ninety-Four",
+          "translation": "Ninety-Four",
+          "image": ""
+        },
+        {
+          "id": "en_num_95",
+          "character": "95",
+          "word": "Ninety-Five",
+          "translation": "Ninety-Five",
+          "image": ""
+        },
+        {
+          "id": "en_num_96",
+          "character": "96",
+          "word": "Ninety-Six",
+          "translation": "Ninety-Six",
+          "image": ""
+        },
+        {
+          "id": "en_num_97",
+          "character": "97",
+          "word": "Ninety-Seven",
+          "translation": "Ninety-Seven",
+          "image": ""
+        },
+        {
+          "id": "en_num_98",
+          "character": "98",
+          "word": "Ninety-Eight",
+          "translation": "Ninety-Eight",
+          "image": ""
+        },
+        {
+          "id": "en_num_99",
+          "character": "99",
+          "word": "Ninety-Nine",
+          "translation": "Ninety-Nine",
+          "image": ""
+        },
+        {
+          "id": "en_num_100",
+          "character": "100",
+          "word": "One Hundred",
+          "translation": "One Hundred",
+          "image": ""
+        }
       ]
     },
     {
@@ -37,10 +930,90 @@
       "title": "Colors",
       "icon": "palette",
       "items": [
-        { "id": "en_col_red", "character": "🔴", "word": "Red", "translation": "Red", "image": "assets/images/english/red.png" },
-        { "id": "en_col_blue", "character": "🔵", "word": "Blue", "translation": "Blue", "image": "assets/images/english/blue.png" },
-        { "id": "en_col_green", "character": "🟢", "word": "Green", "translation": "Green", "image": "assets/images/english/green.png" },
-        { "id": "en_col_yellow", "character": "🟡", "word": "Yellow", "translation": "Yellow", "image": "assets/images/english/yellow.png" }
+        {
+          "id": "en_colors_red",
+          "character": "🔴",
+          "word": "Red",
+          "translation": "Red",
+          "image": ""
+        },
+        {
+          "id": "en_colors_blue",
+          "character": "🔵",
+          "word": "Blue",
+          "translation": "Blue",
+          "image": ""
+        },
+        {
+          "id": "en_colors_green",
+          "character": "🟢",
+          "word": "Green",
+          "translation": "Green",
+          "image": ""
+        },
+        {
+          "id": "en_colors_yellow",
+          "character": "🟡",
+          "word": "Yellow",
+          "translation": "Yellow",
+          "image": ""
+        },
+        {
+          "id": "en_colors_orange",
+          "character": "🟠",
+          "word": "Orange",
+          "translation": "Orange",
+          "image": ""
+        },
+        {
+          "id": "en_colors_purple",
+          "character": "🟣",
+          "word": "Purple",
+          "translation": "Purple",
+          "image": ""
+        },
+        {
+          "id": "en_colors_pink",
+          "character": "🩷",
+          "word": "Pink",
+          "translation": "Pink",
+          "image": ""
+        },
+        {
+          "id": "en_colors_black",
+          "character": "⚫",
+          "word": "Black",
+          "translation": "Black",
+          "image": ""
+        },
+        {
+          "id": "en_colors_white",
+          "character": "⚪",
+          "word": "White",
+          "translation": "White",
+          "image": ""
+        },
+        {
+          "id": "en_colors_brown",
+          "character": "🟤",
+          "word": "Brown",
+          "translation": "Brown",
+          "image": ""
+        },
+        {
+          "id": "en_colors_grey",
+          "character": "🩶",
+          "word": "Grey",
+          "translation": "Grey",
+          "image": ""
+        },
+        {
+          "id": "en_colors_gold",
+          "character": "🥇",
+          "word": "Gold",
+          "translation": "Gold",
+          "image": ""
+        }
       ]
     },
     {
@@ -48,10 +1021,181 @@
       "title": "Animals",
       "icon": "pets",
       "items": [
-        { "id": "en_an_cow", "character": "🐄", "word": "Cow", "translation": "Cow", "image": "assets/images/english/cow.png" },
-        { "id": "en_an_goat", "character": "🐐", "word": "Goat", "translation": "Goat", "image": "assets/images/english/goat.png" },
-        { "id": "en_an_horse", "character": "🐎", "word": "Horse", "translation": "Horse", "image": "assets/images/english/horse.png" },
-        { "id": "en_an_dog", "character": "🐕", "word": "Dog", "translation": "Dog", "image": "assets/images/english/dog.png" }
+        {
+          "id": "en_animals_lion",
+          "character": "🦁",
+          "word": "Lion",
+          "translation": "Lion",
+          "image": ""
+        },
+        {
+          "id": "en_animals_tiger",
+          "character": "🐯",
+          "word": "Tiger",
+          "translation": "Tiger",
+          "image": ""
+        },
+        {
+          "id": "en_animals_elephant",
+          "character": "🐘",
+          "word": "Elephant",
+          "translation": "Elephant",
+          "image": ""
+        },
+        {
+          "id": "en_animals_monkey",
+          "character": "🐒",
+          "word": "Monkey",
+          "translation": "Monkey",
+          "image": ""
+        },
+        {
+          "id": "en_animals_bear",
+          "character": "🐻",
+          "word": "Bear",
+          "translation": "Bear",
+          "image": ""
+        },
+        {
+          "id": "en_animals_deer",
+          "character": "🦌",
+          "word": "Deer",
+          "translation": "Deer",
+          "image": ""
+        },
+        {
+          "id": "en_animals_horse",
+          "character": "🐎",
+          "word": "Horse",
+          "translation": "Horse",
+          "image": ""
+        },
+        {
+          "id": "en_animals_cow",
+          "character": "🐄",
+          "word": "Cow",
+          "translation": "Cow",
+          "image": ""
+        },
+        {
+          "id": "en_animals_goat",
+          "character": "🐐",
+          "word": "Goat",
+          "translation": "Goat",
+          "image": ""
+        },
+        {
+          "id": "en_animals_dog",
+          "character": "🐕",
+          "word": "Dog",
+          "translation": "Dog",
+          "image": ""
+        },
+        {
+          "id": "en_animals_cat",
+          "character": "🐈",
+          "word": "Cat",
+          "translation": "Cat",
+          "image": ""
+        },
+        {
+          "id": "en_animals_camel",
+          "character": "🐫",
+          "word": "Camel",
+          "translation": "Camel",
+          "image": ""
+        },
+        {
+          "id": "en_animals_rabbit",
+          "character": "🐇",
+          "word": "Rabbit",
+          "translation": "Rabbit",
+          "image": ""
+        },
+        {
+          "id": "en_animals_fox",
+          "character": "🦊",
+          "word": "Fox",
+          "translation": "Fox",
+          "image": ""
+        },
+        {
+          "id": "en_animals_wolf",
+          "character": "🐺",
+          "word": "Wolf",
+          "translation": "Wolf",
+          "image": ""
+        },
+        {
+          "id": "en_animals_buffalo",
+          "character": "🐃",
+          "word": "Buffalo",
+          "translation": "Buffalo",
+          "image": ""
+        },
+        {
+          "id": "en_animals_donkey",
+          "character": "🫏",
+          "word": "Donkey",
+          "translation": "Donkey",
+          "image": ""
+        },
+        {
+          "id": "en_animals_pig",
+          "character": "🐖",
+          "word": "Pig",
+          "translation": "Pig",
+          "image": ""
+        },
+        {
+          "id": "en_animals_sheep",
+          "character": "🐑",
+          "word": "Sheep",
+          "translation": "Sheep",
+          "image": ""
+        },
+        {
+          "id": "en_animals_crocodile",
+          "character": "🐊",
+          "word": "Crocodile",
+          "translation": "Crocodile",
+          "image": ""
+        },
+        {
+          "id": "en_animals_snake",
+          "character": "🐍",
+          "word": "Snake",
+          "translation": "Snake",
+          "image": ""
+        },
+        {
+          "id": "en_animals_peacock",
+          "character": "🦚",
+          "word": "Peacock",
+          "translation": "Peacock",
+          "image": ""
+        },
+        {
+          "id": "en_animals_parrot",
+          "character": "🦜",
+          "word": "Parrot",
+          "translation": "Parrot",
+          "image": ""
+        },
+        {
+          "id": "en_animals_giraffe",
+          "character": "🦒",
+          "word": "Giraffe",
+          "translation": "Giraffe",
+          "image": ""
+        },
+        {
+          "id": "en_animals_frog",
+          "character": "🐸",
+          "word": "Frog",
+          "translation": "Frog",
+          "image": ""
+        }
       ]
     }
   ]

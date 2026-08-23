@@ -5,30 +5,1044 @@
   "categories": [
     {
       "id": "alphabet",
-      "title": "Hindi Alphabet",
+      "title": "Alphabet",
       "icon": "abc",
       "items": [
-        { "id": "hi_a", "character": "अ", "word": "अनार", "translation": "Pomegranate", "image": "assets/images/hindi/anar.png" },
-        { "id": "hi_aa", "character": "आ", "word": "आम", "translation": "Mango", "image": "assets/images/hindi/aam.png" },
-        { "id": "hi_i", "character": "इ", "word": "इमली", "translation": "Tamarind", "image": "assets/images/hindi/imli.png" },
-        { "id": "hi_ii", "character": "ई", "word": "ईख", "translation": "Sugarcane", "image": "assets/images/hindi/eekh.png" },
-        { "id": "hi_u", "character": "उ", "word": "उल्लू", "translation": "Owl", "image": "assets/images/hindi/ullu.png" },
-        { "id": "hi_e", "character": "ए", "word": "एक", "translation": "One", "image": "assets/images/hindi/ek.png" },
-        { "id": "hi_k", "character": "क", "word": "कमल", "translation": "Lotus", "image": "assets/images/hindi/kamal.png" },
-        { "id": "hi_g", "character": "ग", "word": "गाय", "translation": "Cow", "image": "assets/images/hindi/gaay.png" },
-        { "id": "hi_m", "character": "म", "word": "मछली", "translation": "Fish", "image": "assets/images/hindi/machhli.png" }
+        {
+          "id": "hi_a",
+          "character": "अ",
+          "word": "अनार",
+          "translation": "Pomegranate",
+          "image": "",
+          "emoji": "🍎"
+        },
+        {
+          "id": "hi_aa",
+          "character": "आ",
+          "word": "आम",
+          "translation": "Mango",
+          "image": "",
+          "emoji": "🥭"
+        },
+        {
+          "id": "hi_i",
+          "character": "इ",
+          "word": "इमली",
+          "translation": "Tamarind",
+          "image": "",
+          "emoji": "🌰"
+        },
+        {
+          "id": "hi_ii",
+          "character": "ई",
+          "word": "ईख",
+          "translation": "Sugarcane",
+          "image": "",
+          "emoji": "🎋"
+        },
+        {
+          "id": "hi_u",
+          "character": "उ",
+          "word": "उल्लू",
+          "translation": "Owl",
+          "image": "",
+          "emoji": "🦉"
+        },
+        {
+          "id": "hi_uu",
+          "character": "ऊ",
+          "word": "ऊन",
+          "translation": "Wool",
+          "image": "",
+          "emoji": "🧶"
+        },
+        {
+          "id": "hi_ri",
+          "character": "ऋ",
+          "word": "ऋषि",
+          "translation": "Sage",
+          "image": "",
+          "emoji": "🧙"
+        },
+        {
+          "id": "hi_e",
+          "character": "ए",
+          "word": "एक",
+          "translation": "One",
+          "image": "",
+          "emoji": "1️⃣"
+        },
+        {
+          "id": "hi_ai",
+          "character": "ऐ",
+          "word": "ऐनक",
+          "translation": "Spectacles",
+          "image": "",
+          "emoji": "👓"
+        },
+        {
+          "id": "hi_o",
+          "character": "ओ",
+          "word": "ओखली",
+          "translation": "Mortar",
+          "image": "",
+          "emoji": "🥣"
+        },
+        {
+          "id": "hi_au",
+          "character": "औ",
+          "word": "औज़ार",
+          "translation": "Tool",
+          "image": "",
+          "emoji": "🔨"
+        },
+        {
+          "id": "hi_k",
+          "character": "क",
+          "word": "कमल",
+          "translation": "Lotus",
+          "image": "",
+          "emoji": "🪷"
+        },
+        {
+          "id": "hi_kh",
+          "character": "ख",
+          "word": "खरगोश",
+          "translation": "Rabbit",
+          "image": "",
+          "emoji": "🐇"
+        },
+        {
+          "id": "hi_g",
+          "character": "ग",
+          "word": "गमला",
+          "translation": "Flowerpot",
+          "image": "",
+          "emoji": "🪴"
+        },
+        {
+          "id": "hi_gh",
+          "character": "घ",
+          "word": "घड़ी",
+          "translation": "Clock",
+          "image": "",
+          "emoji": "⏰"
+        },
+        {
+          "id": "hi_ch",
+          "character": "च",
+          "word": "चम्मच",
+          "translation": "Spoon",
+          "image": "",
+          "emoji": "🥄"
+        },
+        {
+          "id": "hi_chh",
+          "character": "छ",
+          "word": "छाता",
+          "translation": "Umbrella",
+          "image": "",
+          "emoji": "☂️"
+        },
+        {
+          "id": "hi_j",
+          "character": "ज",
+          "word": "जहाज़",
+          "translation": "Ship",
+          "image": "",
+          "emoji": "🚢"
+        },
+        {
+          "id": "hi_jh",
+          "character": "झ",
+          "word": "झंडा",
+          "translation": "Flag",
+          "image": "",
+          "emoji": "🚩"
+        },
+        {
+          "id": "hi_tt",
+          "character": "ट",
+          "word": "टमाटर",
+          "translation": "Tomato",
+          "image": "",
+          "emoji": "🍅"
+        },
+        {
+          "id": "hi_tth",
+          "character": "ठ",
+          "word": "ठेला",
+          "translation": "Cart",
+          "image": "",
+          "emoji": "🛒"
+        },
+        {
+          "id": "hi_dd",
+          "character": "ड",
+          "word": "डमरू",
+          "translation": "Drum",
+          "image": "",
+          "emoji": "🥁"
+        },
+        {
+          "id": "hi_ddh",
+          "character": "ढ",
+          "word": "ढोल",
+          "translation": "Drum",
+          "image": "",
+          "emoji": "🥁"
+        },
+        {
+          "id": "hi_t",
+          "character": "त",
+          "word": "तरबूज़",
+          "translation": "Watermelon",
+          "image": "",
+          "emoji": "🍉"
+        },
+        {
+          "id": "hi_th",
+          "character": "थ",
+          "word": "थैला",
+          "translation": "Bag",
+          "image": "",
+          "emoji": "👜"
+        },
+        {
+          "id": "hi_d",
+          "character": "द",
+          "word": "दरवाज़ा",
+          "translation": "Door",
+          "image": "",
+          "emoji": "🚪"
+        },
+        {
+          "id": "hi_dh",
+          "character": "ध",
+          "word": "धनुष",
+          "translation": "Bow",
+          "image": "",
+          "emoji": "🏹"
+        },
+        {
+          "id": "hi_n",
+          "character": "न",
+          "word": "नल",
+          "translation": "Tap",
+          "image": "",
+          "emoji": "🚰"
+        },
+        {
+          "id": "hi_p",
+          "character": "प",
+          "word": "पतंग",
+          "translation": "Kite",
+          "image": "",
+          "emoji": "🪁"
+        },
+        {
+          "id": "hi_ph",
+          "character": "फ",
+          "word": "फल",
+          "translation": "Fruit",
+          "image": "",
+          "emoji": "🍎"
+        },
+        {
+          "id": "hi_b",
+          "character": "ब",
+          "word": "बकरी",
+          "translation": "Goat",
+          "image": "",
+          "emoji": "🐐"
+        },
+        {
+          "id": "hi_bh",
+          "character": "भ",
+          "word": "भालू",
+          "translation": "Bear",
+          "image": "",
+          "emoji": "🐻"
+        },
+        {
+          "id": "hi_m",
+          "character": "म",
+          "word": "मछली",
+          "translation": "Fish",
+          "image": "",
+          "emoji": "🐟"
+        },
+        {
+          "id": "hi_y",
+          "character": "य",
+          "word": "यज्ञ",
+          "translation": "Sacrificial fire",
+          "image": "",
+          "emoji": "🔥"
+        },
+        {
+          "id": "hi_r",
+          "character": "र",
+          "word": "राजा",
+          "translation": "King",
+          "image": "",
+          "emoji": "👑"
+        },
+        {
+          "id": "hi_l",
+          "character": "ल",
+          "word": "लट्टू",
+          "translation": "Spinning top",
+          "image": "",
+          "emoji": "🪀"
+        },
+        {
+          "id": "hi_v",
+          "character": "व",
+          "word": "वृक्ष",
+          "translation": "Tree",
+          "image": "",
+          "emoji": "🌳"
+        },
+        {
+          "id": "hi_sh",
+          "character": "श",
+          "word": "शेर",
+          "translation": "Lion",
+          "image": "",
+          "emoji": "🦁"
+        },
+        {
+          "id": "hi_ss",
+          "character": "ष",
+          "word": "षटकोण",
+          "translation": "Hexagon",
+          "image": "",
+          "emoji": "🔷"
+        },
+        {
+          "id": "hi_s",
+          "character": "स",
+          "word": "सूरज",
+          "translation": "Sun",
+          "image": "",
+          "emoji": "☀️"
+        },
+        {
+          "id": "hi_h",
+          "character": "ह",
+          "word": "हाथी",
+          "translation": "Elephant",
+          "image": "",
+          "emoji": "🐘"
+        }
       ]
     },
     {
       "id": "numbers",
-      "title": "Numbers",
+      "title": "Numbers 1-100",
       "icon": "numbers",
       "items": [
-        { "id": "hi_num_1", "character": "१", "word": "एक", "translation": "One", "image": "assets/images/hindi/one.png" },
-        { "id": "hi_num_2", "character": "२", "word": "दो", "translation": "Two", "image": "assets/images/hindi/two.png" },
-        { "id": "hi_num_3", "character": "३", "word": "तीन", "translation": "Three", "image": "assets/images/hindi/three.png" },
-        { "id": "hi_num_4", "character": "४", "word": "चार", "translation": "Four", "image": "assets/images/hindi/four.png" },
-        { "id": "hi_num_5", "character": "५", "word": "पांच", "translation": "Five", "image": "assets/images/hindi/five.png" }
+        {
+          "id": "hi_num_1",
+          "character": "१",
+          "word": "एक",
+          "translation": "One",
+          "image": ""
+        },
+        {
+          "id": "hi_num_2",
+          "character": "२",
+          "word": "दो",
+          "translation": "Two",
+          "image": ""
+        },
+        {
+          "id": "hi_num_3",
+          "character": "३",
+          "word": "तीन",
+          "translation": "Three",
+          "image": ""
+        },
+        {
+          "id": "hi_num_4",
+          "character": "४",
+          "word": "चार",
+          "translation": "Four",
+          "image": ""
+        },
+        {
+          "id": "hi_num_5",
+          "character": "५",
+          "word": "पाँच",
+          "translation": "Five",
+          "image": ""
+        },
+        {
+          "id": "hi_num_6",
+          "character": "६",
+          "word": "छह",
+          "translation": "Six",
+          "image": ""
+        },
+        {
+          "id": "hi_num_7",
+          "character": "७",
+          "word": "सात",
+          "translation": "Seven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_8",
+          "character": "८",
+          "word": "आठ",
+          "translation": "Eight",
+          "image": ""
+        },
+        {
+          "id": "hi_num_9",
+          "character": "९",
+          "word": "नौ",
+          "translation": "Nine",
+          "image": ""
+        },
+        {
+          "id": "hi_num_10",
+          "character": "१०",
+          "word": "दस",
+          "translation": "Ten",
+          "image": ""
+        },
+        {
+          "id": "hi_num_11",
+          "character": "११",
+          "word": "ग्यारह",
+          "translation": "Eleven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_12",
+          "character": "१२",
+          "word": "बारह",
+          "translation": "Twelve",
+          "image": ""
+        },
+        {
+          "id": "hi_num_13",
+          "character": "१३",
+          "word": "तेरह",
+          "translation": "Thirteen",
+          "image": ""
+        },
+        {
+          "id": "hi_num_14",
+          "character": "१४",
+          "word": "चौदह",
+          "translation": "Fourteen",
+          "image": ""
+        },
+        {
+          "id": "hi_num_15",
+          "character": "१५",
+          "word": "पंद्रह",
+          "translation": "Fifteen",
+          "image": ""
+        },
+        {
+          "id": "hi_num_16",
+          "character": "१६",
+          "word": "सोलह",
+          "translation": "Sixteen",
+          "image": ""
+        },
+        {
+          "id": "hi_num_17",
+          "character": "१७",
+          "word": "सत्रह",
+          "translation": "Seventeen",
+          "image": ""
+        },
+        {
+          "id": "hi_num_18",
+          "character": "१८",
+          "word": "अठारह",
+          "translation": "Eighteen",
+          "image": ""
+        },
+        {
+          "id": "hi_num_19",
+          "character": "१९",
+          "word": "उन्नीस",
+          "translation": "Nineteen",
+          "image": ""
+        },
+        {
+          "id": "hi_num_20",
+          "character": "२०",
+          "word": "बीस",
+          "translation": "Twenty",
+          "image": ""
+        },
+        {
+          "id": "hi_num_21",
+          "character": "२१",
+          "word": "इक्कीस",
+          "translation": "Twenty-One",
+          "image": ""
+        },
+        {
+          "id": "hi_num_22",
+          "character": "२२",
+          "word": "बाईस",
+          "translation": "Twenty-Two",
+          "image": ""
+        },
+        {
+          "id": "hi_num_23",
+          "character": "२३",
+          "word": "तेईस",
+          "translation": "Twenty-Three",
+          "image": ""
+        },
+        {
+          "id": "hi_num_24",
+          "character": "२४",
+          "word": "चौबीस",
+          "translation": "Twenty-Four",
+          "image": ""
+        },
+        {
+          "id": "hi_num_25",
+          "character": "२५",
+          "word": "पच्चीस",
+          "translation": "Twenty-Five",
+          "image": ""
+        },
+        {
+          "id": "hi_num_26",
+          "character": "२६",
+          "word": "छब्बीस",
+          "translation": "Twenty-Six",
+          "image": ""
+        },
+        {
+          "id": "hi_num_27",
+          "character": "२७",
+          "word": "सत्ताईस",
+          "translation": "Twenty-Seven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_28",
+          "character": "२८",
+          "word": "अट्ठाईस",
+          "translation": "Twenty-Eight",
+          "image": ""
+        },
+        {
+          "id": "hi_num_29",
+          "character": "२९",
+          "word": "उनतीस",
+          "translation": "Twenty-Nine",
+          "image": ""
+        },
+        {
+          "id": "hi_num_30",
+          "character": "३०",
+          "word": "तीस",
+          "translation": "Thirty",
+          "image": ""
+        },
+        {
+          "id": "hi_num_31",
+          "character": "३१",
+          "word": "इकतीस",
+          "translation": "Thirty-One",
+          "image": ""
+        },
+        {
+          "id": "hi_num_32",
+          "character": "३२",
+          "word": "बत्तीस",
+          "translation": "Thirty-Two",
+          "image": ""
+        },
+        {
+          "id": "hi_num_33",
+          "character": "३३",
+          "word": "तैंतीस",
+          "translation": "Thirty-Three",
+          "image": ""
+        },
+        {
+          "id": "hi_num_34",
+          "character": "३४",
+          "word": "चौंतीस",
+          "translation": "Thirty-Four",
+          "image": ""
+        },
+        {
+          "id": "hi_num_35",
+          "character": "३५",
+          "word": "पैंतीस",
+          "translation": "Thirty-Five",
+          "image": ""
+        },
+        {
+          "id": "hi_num_36",
+          "character": "३६",
+          "word": "छत्तीस",
+          "translation": "Thirty-Six",
+          "image": ""
+        },
+        {
+          "id": "hi_num_37",
+          "character": "३७",
+          "word": "सैंतीस",
+          "translation": "Thirty-Seven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_38",
+          "character": "३८",
+          "word": "अड़तीस",
+          "translation": "Thirty-Eight",
+          "image": ""
+        },
+        {
+          "id": "hi_num_39",
+          "character": "३९",
+          "word": "उनतालीस",
+          "translation": "Thirty-Nine",
+          "image": ""
+        },
+        {
+          "id": "hi_num_40",
+          "character": "४०",
+          "word": "चालीस",
+          "translation": "Forty",
+          "image": ""
+        },
+        {
+          "id": "hi_num_41",
+          "character": "४१",
+          "word": "इकतालीस",
+          "translation": "Forty-One",
+          "image": ""
+        },
+        {
+          "id": "hi_num_42",
+          "character": "४२",
+          "word": "बयालीस",
+          "translation": "Forty-Two",
+          "image": ""
+        },
+        {
+          "id": "hi_num_43",
+          "character": "४३",
+          "word": "तैंतालीस",
+          "translation": "Forty-Three",
+          "image": ""
+        },
+        {
+          "id": "hi_num_44",
+          "character": "४४",
+          "word": "चौवालीस",
+          "translation": "Forty-Four",
+          "image": ""
+        },
+        {
+          "id": "hi_num_45",
+          "character": "४५",
+          "word": "पैंतालीस",
+          "translation": "Forty-Five",
+          "image": ""
+        },
+        {
+          "id": "hi_num_46",
+          "character": "४६",
+          "word": "छियालीस",
+          "translation": "Forty-Six",
+          "image": ""
+        },
+        {
+          "id": "hi_num_47",
+          "character": "४७",
+          "word": "सैंतालीस",
+          "translation": "Forty-Seven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_48",
+          "character": "४८",
+          "word": "अड़तालीस",
+          "translation": "Forty-Eight",
+          "image": ""
+        },
+        {
+          "id": "hi_num_49",
+          "character": "४९",
+          "word": "उनचास",
+          "translation": "Forty-Nine",
+          "image": ""
+        },
+        {
+          "id": "hi_num_50",
+          "character": "५०",
+          "word": "पचास",
+          "translation": "Fifty",
+          "image": ""
+        },
+        {
+          "id": "hi_num_51",
+          "character": "५१",
+          "word": "इक्यावन",
+          "translation": "Fifty-One",
+          "image": ""
+        },
+        {
+          "id": "hi_num_52",
+          "character": "५२",
+          "word": "बावन",
+          "translation": "Fifty-Two",
+          "image": ""
+        },
+        {
+          "id": "hi_num_53",
+          "character": "५३",
+          "word": "तिरेपन",
+          "translation": "Fifty-Three",
+          "image": ""
+        },
+        {
+          "id": "hi_num_54",
+          "character": "५४",
+          "word": "चौवन",
+          "translation": "Fifty-Four",
+          "image": ""
+        },
+        {
+          "id": "hi_num_55",
+          "character": "५५",
+          "word": "पचपन",
+          "translation": "Fifty-Five",
+          "image": ""
+        },
+        {
+          "id": "hi_num_56",
+          "character": "५६",
+          "word": "छप्पन",
+          "translation": "Fifty-Six",
+          "image": ""
+        },
+        {
+          "id": "hi_num_57",
+          "character": "५७",
+          "word": "सत्तावन",
+          "translation": "Fifty-Seven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_58",
+          "character": "५८",
+          "word": "अट्ठावन",
+          "translation": "Fifty-Eight",
+          "image": ""
+        },
+        {
+          "id": "hi_num_59",
+          "character": "५९",
+          "word": "उनसठ",
+          "translation": "Fifty-Nine",
+          "image": ""
+        },
+        {
+          "id": "hi_num_60",
+          "character": "६०",
+          "word": "साठ",
+          "translation": "Sixty",
+          "image": ""
+        },
+        {
+          "id": "hi_num_61",
+          "character": "६१",
+          "word": "इकसठ",
+          "translation": "Sixty-One",
+          "image": ""
+        },
+        {
+          "id": "hi_num_62",
+          "character": "६२",
+          "word": "बासठ",
+          "translation": "Sixty-Two",
+          "image": ""
+        },
+        {
+          "id": "hi_num_63",
+          "character": "६३",
+          "word": "तिरेसठ",
+          "translation": "Sixty-Three",
+          "image": ""
+        },
+        {
+          "id": "hi_num_64",
+          "character": "६४",
+          "word": "चौंसठ",
+          "translation": "Sixty-Four",
+          "image": ""
+        },
+        {
+          "id": "hi_num_65",
+          "character": "६५",
+          "word": "पैंसठ",
+          "translation": "Sixty-Five",
+          "image": ""
+        },
+        {
+          "id": "hi_num_66",
+          "character": "६६",
+          "word": "छियासठ",
+          "translation": "Sixty-Six",
+          "image": ""
+        },
+        {
+          "id": "hi_num_67",
+          "character": "६७",
+          "word": "सड़सठ",
+          "translation": "Sixty-Seven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_68",
+          "character": "६८",
+          "word": "अड़सठ",
+          "translation": "Sixty-Eight",
+          "image": ""
+        },
+        {
+          "id": "hi_num_69",
+          "character": "६९",
+          "word": "उनहत्तर",
+          "translation": "Sixty-Nine",
+          "image": ""
+        },
+        {
+          "id": "hi_num_70",
+          "character": "७०",
+          "word": "सत्तर",
+          "translation": "Seventy",
+          "image": ""
+        },
+        {
+          "id": "hi_num_71",
+          "character": "७१",
+          "word": "इकहत्तर",
+          "translation": "Seventy-One",
+          "image": ""
+        },
+        {
+          "id": "hi_num_72",
+          "character": "७२",
+          "word": "बहत्तर",
+          "translation": "Seventy-Two",
+          "image": ""
+        },
+        {
+          "id": "hi_num_73",
+          "character": "७३",
+          "word": "तिहत्तर",
+          "translation": "Seventy-Three",
+          "image": ""
+        },
+        {
+          "id": "hi_num_74",
+          "character": "७४",
+          "word": "चौहत्तर",
+          "translation": "Seventy-Four",
+          "image": ""
+        },
+        {
+          "id": "hi_num_75",
+          "character": "७५",
+          "word": "पचहत्तर",
+          "translation": "Seventy-Five",
+          "image": ""
+        },
+        {
+          "id": "hi_num_76",
+          "character": "७६",
+          "word": "छिहत्तर",
+          "translation": "Seventy-Six",
+          "image": ""
+        },
+        {
+          "id": "hi_num_77",
+          "character": "७७",
+          "word": "सतहत्तर",
+          "translation": "Seventy-Seven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_78",
+          "character": "७८",
+          "word": "अठहत्तर",
+          "translation": "Seventy-Eight",
+          "image": ""
+        },
+        {
+          "id": "hi_num_79",
+          "character": "७९",
+          "word": "उन्यासी",
+          "translation": "Seventy-Nine",
+          "image": ""
+        },
+        {
+          "id": "hi_num_80",
+          "character": "८०",
+          "word": "अस्सी",
+          "translation": "Eighty",
+          "image": ""
+        },
+        {
+          "id": "hi_num_81",
+          "character": "८१",
+          "word": "इक्यासी",
+          "translation": "Eighty-One",
+          "image": ""
+        },
+        {
+          "id": "hi_num_82",
+          "character": "८२",
+          "word": "बयासी",
+          "translation": "Eighty-Two",
+          "image": ""
+        },
+        {
+          "id": "hi_num_83",
+          "character": "८३",
+          "word": "तिरासी",
+          "translation": "Eighty-Three",
+          "image": ""
+        },
+        {
+          "id": "hi_num_84",
+          "character": "८४",
+          "word": "चौरासी",
+          "translation": "Eighty-Four",
+          "image": ""
+        },
+        {
+          "id": "hi_num_85",
+          "character": "८५",
+          "word": "पचासी",
+          "translation": "Eighty-Five",
+          "image": ""
+        },
+        {
+          "id": "hi_num_86",
+          "character": "८६",
+          "word": "छियासी",
+          "translation": "Eighty-Six",
+          "image": ""
+        },
+        {
+          "id": "hi_num_87",
+          "character": "८७",
+          "word": "सत्तासी",
+          "translation": "Eighty-Seven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_88",
+          "character": "८८",
+          "word": "अट्ठासी",
+          "translation": "Eighty-Eight",
+          "image": ""
+        },
+        {
+          "id": "hi_num_89",
+          "character": "८९",
+          "word": "नवासी",
+          "translation": "Eighty-Nine",
+          "image": ""
+        },
+        {
+          "id": "hi_num_90",
+          "character": "९०",
+          "word": "नब्बे",
+          "translation": "Ninety",
+          "image": ""
+        },
+        {
+          "id": "hi_num_91",
+          "character": "९१",
+          "word": "इक्यानवे",
+          "translation": "Ninety-One",
+          "image": ""
+        },
+        {
+          "id": "hi_num_92",
+          "character": "९२",
+          "word": "बानवे",
+          "translation": "Ninety-Two",
+          "image": ""
+        },
+        {
+          "id": "hi_num_93",
+          "character": "९३",
+          "word": "तिरानवे",
+          "translation": "Ninety-Three",
+          "image": ""
+        },
+        {
+          "id": "hi_num_94",
+          "character": "९४",
+          "word": "चौरानवे",
+          "translation": "Ninety-Four",
+          "image": ""
+        },
+        {
+          "id": "hi_num_95",
+          "character": "९५",
+          "word": "पचानवे",
+          "translation": "Ninety-Five",
+          "image": ""
+        },
+        {
+          "id": "hi_num_96",
+          "character": "९६",
+          "word": "छियानवे",
+          "translation": "Ninety-Six",
+          "image": ""
+        },
+        {
+          "id": "hi_num_97",
+          "character": "९७",
+          "word": "सत्तानवे",
+          "translation": "Ninety-Seven",
+          "image": ""
+        },
+        {
+          "id": "hi_num_98",
+          "character": "९८",
+          "word": "अट्ठानवे",
+          "translation": "Ninety-Eight",
+          "image": ""
+        },
+        {
+          "id": "hi_num_99",
+          "character": "९९",
+          "word": "निन्यानवे",
+          "translation": "Ninety-Nine",
+          "image": ""
+        },
+        {
+          "id": "hi_num_100",
+          "character": "१००",
+          "word": "सौ",
+          "translation": "One Hundred",
+          "image": ""
+        }
       ]
     },
     {
@@ -36,10 +1050,90 @@
       "title": "Colors",
       "icon": "palette",
       "items": [
-        { "id": "hi_col_red", "character": "🔴", "word": "लाल", "translation": "Red", "image": "assets/images/hindi/red.png" },
-        { "id": "hi_col_blue", "character": "🔵", "word": "नीला", "translation": "Blue", "image": "assets/images/hindi/blue.png" },
-        { "id": "hi_col_green", "character": "🟢", "word": "हरा", "translation": "Green", "image": "assets/images/hindi/green.png" },
-        { "id": "hi_col_yellow", "character": "🟡", "word": "पीला", "translation": "Yellow", "image": "assets/images/hindi/yellow.png" }
+        {
+          "id": "hi_colors_red",
+          "character": "🔴",
+          "word": "लाल",
+          "translation": "Red",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_blue",
+          "character": "🔵",
+          "word": "नीला",
+          "translation": "Blue",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_green",
+          "character": "🟢",
+          "word": "हरा",
+          "translation": "Green",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_yellow",
+          "character": "🟡",
+          "word": "पीला",
+          "translation": "Yellow",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_orange",
+          "character": "🟠",
+          "word": "नारंगी",
+          "translation": "Orange",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_purple",
+          "character": "🟣",
+          "word": "बैंगनी",
+          "translation": "Purple",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_pink",
+          "character": "🩷",
+          "word": "गुलाबी",
+          "translation": "Pink",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_black",
+          "character": "⚫",
+          "word": "काला",
+          "translation": "Black",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_white",
+          "character": "⚪",
+          "word": "सफेद",
+          "translation": "White",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_brown",
+          "character": "🟤",
+          "word": "भूरा",
+          "translation": "Brown",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_grey",
+          "character": "🩶",
+          "word": "स्लेटी",
+          "translation": "Grey",
+          "image": ""
+        },
+        {
+          "id": "hi_colors_gold",
+          "character": "🥇",
+          "word": "सुनहरा",
+          "translation": "Gold",
+          "image": ""
+        }
       ]
     },
     {
@@ -47,10 +1141,181 @@
       "title": "Animals",
       "icon": "pets",
       "items": [
-        { "id": "hi_an_cow", "character": "🐄", "word": "गाय", "translation": "Cow", "image": "assets/images/hindi/cow.png" },
-        { "id": "hi_an_goat", "character": "🐐", "word": "बकरी", "translation": "Goat", "image": "assets/images/hindi/goat.png" },
-        { "id": "hi_an_horse", "character": "🐎", "word": "घोड़ा", "translation": "Horse", "image": "assets/images/hindi/horse.png" },
-        { "id": "hi_an_dog", "character": "🐕", "word": "कुत्ता", "translation": "Dog", "image": "assets/images/hindi/dog.png" }
+        {
+          "id": "hi_animals_lion",
+          "character": "🦁",
+          "word": "शेर",
+          "translation": "Lion",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_tiger",
+          "character": "🐯",
+          "word": "बाघ",
+          "translation": "Tiger",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_elephant",
+          "character": "🐘",
+          "word": "हाथी",
+          "translation": "Elephant",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_monkey",
+          "character": "🐒",
+          "word": "बंदर",
+          "translation": "Monkey",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_bear",
+          "character": "🐻",
+          "word": "भालू",
+          "translation": "Bear",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_deer",
+          "character": "🦌",
+          "word": "हिरण",
+          "translation": "Deer",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_horse",
+          "character": "🐎",
+          "word": "घोड़ा",
+          "translation": "Horse",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_cow",
+          "character": "🐄",
+          "word": "गाय",
+          "translation": "Cow",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_goat",
+          "character": "🐐",
+          "word": "बकरी",
+          "translation": "Goat",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_dog",
+          "character": "🐕",
+          "word": "कुत्ता",
+          "translation": "Dog",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_cat",
+          "character": "🐈",
+          "word": "बिल्ली",
+          "translation": "Cat",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_camel",
+          "character": "🐫",
+          "word": "ऊँट",
+          "translation": "Camel",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_rabbit",
+          "character": "🐇",
+          "word": "खरगोश",
+          "translation": "Rabbit",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_fox",
+          "character": "🦊",
+          "word": "लोमड़ी",
+          "translation": "Fox",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_wolf",
+          "character": "🐺",
+          "word": "भेड़िया",
+          "translation": "Wolf",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_buffalo",
+          "character": "🐃",
+          "word": "भैंस",
+          "translation": "Buffalo",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_donkey",
+          "character": "🫏",
+          "word": "गधा",
+          "translation": "Donkey",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_pig",
+          "character": "🐖",
+          "word": "सूअर",
+          "translation": "Pig",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_sheep",
+          "character": "🐑",
+          "word": "भेड़",
+          "translation": "Sheep",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_crocodile",
+          "character": "🐊",
+          "word": "मगरमच्छ",
+          "translation": "Crocodile",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_snake",
+          "character": "🐍",
+          "word": "साँप",
+          "translation": "Snake",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_peacock",
+          "character": "🦚",
+          "word": "मोर",
+          "translation": "Peacock",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_parrot",
+          "character": "🦜",
+          "word": "तोता",
+          "translation": "Parrot",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_giraffe",
+          "character": "🦒",
+          "word": "जिराफ़",
+          "translation": "Giraffe",
+          "image": ""
+        },
+        {
+          "id": "hi_animals_frog",
+          "character": "🐸",
+          "word": "मेंढक",
+          "translation": "Frog",
+          "image": ""
+        }
       ]
     }
   ]

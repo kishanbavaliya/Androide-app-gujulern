@@ -5,39 +5,980 @@
   "categories": [
     {
       "id": "alphabet",
-      "title": "Sanskrit Varnamala",
+      "title": "Alphabet",
       "icon": "abc",
       "items": [
-        { "id": "sa_a", "character": "अ", "word": "अश्वः", "translation": "Horse", "image": "assets/images/sanskrit/ashvah.png" },
-        { "id": "sa_aa", "character": "आ", "word": "आम्रः", "translation": "Mango", "image": "assets/images/sanskrit/aamrah.png" },
-        { "id": "sa_i", "character": "इ", "word": "इन्दुः", "translation": "Moon", "image": "assets/images/sanskrit/induh.png" },
-        { "id": "sa_ii", "character": "ई", "word": "ईशः", "translation": "Lord", "image": "assets/images/sanskrit/ishah.png" },
-        { "id": "sa_u", "character": "उ", "word": "उदकम्", "translation": "Water", "image": "assets/images/sanskrit/udakam.png" },
-        { "id": "sa_uu", "character": "ऊ", "word": "ऊर्मिः", "translation": "Wave", "image": "assets/images/sanskrit/urmih.png" },
-        { "id": "sa_e", "character": "ए", "word": "एकः", "translation": "One (masc.)", "image": "assets/images/sanskrit/ekah.png" },
-        { "id": "sa_o", "character": "ओ", "word": "ओदनः", "translation": "Cooked rice", "image": "assets/images/sanskrit/odanah.png" },
-        { "id": "sa_k", "character": "क", "word": "कमलम्", "translation": "Lotus", "image": "assets/images/sanskrit/kamalam.png" },
-        { "id": "sa_g", "character": "ग", "word": "गौः", "translation": "Cow", "image": "assets/images/sanskrit/gauh.png" },
-        { "id": "sa_ch", "character": "च", "word": "चन्द्रः", "translation": "Moon", "image": "assets/images/sanskrit/chandrah.png" },
-        { "id": "sa_t", "character": "त", "word": "तरुः", "translation": "Tree", "image": "assets/images/sanskrit/taruh.png" },
-        { "id": "sa_n", "character": "न", "word": "नदी", "translation": "River", "image": "assets/images/sanskrit/nadi.png" },
-        { "id": "sa_p", "character": "प", "word": "पुष्पम्", "translation": "Flower", "image": "assets/images/sanskrit/pushpam.png" },
-        { "id": "sa_m", "character": "म", "word": "मयूरः", "translation": "Peacock", "image": "assets/images/sanskrit/mayurah.png" },
-        { "id": "sa_r", "character": "र", "word": "राजा", "translation": "King", "image": "assets/images/sanskrit/raja.png" },
-        { "id": "sa_s", "character": "स", "word": "सूर्यः", "translation": "Sun", "image": "assets/images/sanskrit/suryah.png" },
-        { "id": "sa_h", "character": "ह", "word": "हस्तः", "translation": "Hand", "image": "assets/images/sanskrit/hastah.png" }
+        {
+          "id": "sa_a",
+          "character": "अ",
+          "word": "अश्वः",
+          "translation": "Horse",
+          "image": "",
+          "emoji": "🐎"
+        },
+        {
+          "id": "sa_aa",
+          "character": "आ",
+          "word": "आम्रः",
+          "translation": "Mango",
+          "image": "",
+          "emoji": "🥭"
+        },
+        {
+          "id": "sa_i",
+          "character": "इ",
+          "word": "इन्दुः",
+          "translation": "Moon",
+          "image": "",
+          "emoji": "🌙"
+        },
+        {
+          "id": "sa_ii",
+          "character": "ई",
+          "word": "ईशः",
+          "translation": "Lord",
+          "image": "",
+          "emoji": "🙏"
+        },
+        {
+          "id": "sa_u",
+          "character": "उ",
+          "word": "उदकम्",
+          "translation": "Water",
+          "image": "",
+          "emoji": "💧"
+        },
+        {
+          "id": "sa_uu",
+          "character": "ऊ",
+          "word": "ऊर्मिः",
+          "translation": "Wave",
+          "image": "",
+          "emoji": "🌊"
+        },
+        {
+          "id": "sa_ri",
+          "character": "ऋ",
+          "word": "ऋषिः",
+          "translation": "Sage",
+          "image": "",
+          "emoji": "🧙"
+        },
+        {
+          "id": "sa_e",
+          "character": "ए",
+          "word": "एकः",
+          "translation": "One",
+          "image": "",
+          "emoji": "1️⃣"
+        },
+        {
+          "id": "sa_ai",
+          "character": "ऐ",
+          "word": "ऐश्वर्यम्",
+          "translation": "Prosperity",
+          "image": "",
+          "emoji": "💎"
+        },
+        {
+          "id": "sa_o",
+          "character": "ओ",
+          "word": "ओदनः",
+          "translation": "Cooked rice",
+          "image": "",
+          "emoji": "🍚"
+        },
+        {
+          "id": "sa_au",
+          "character": "औ",
+          "word": "औषधम्",
+          "translation": "Medicine",
+          "image": "",
+          "emoji": "💊"
+        },
+        {
+          "id": "sa_k",
+          "character": "क",
+          "word": "कमलम्",
+          "translation": "Lotus",
+          "image": "",
+          "emoji": "🪷"
+        },
+        {
+          "id": "sa_kh",
+          "character": "ख",
+          "word": "खगः",
+          "translation": "Bird",
+          "image": "",
+          "emoji": "🐦"
+        },
+        {
+          "id": "sa_g",
+          "character": "ग",
+          "word": "गौः",
+          "translation": "Cow",
+          "image": "",
+          "emoji": "🐄"
+        },
+        {
+          "id": "sa_gh",
+          "character": "घ",
+          "word": "घटः",
+          "translation": "Pot",
+          "image": "",
+          "emoji": "🏺"
+        },
+        {
+          "id": "sa_ch",
+          "character": "च",
+          "word": "चन्द्रः",
+          "translation": "Moon",
+          "image": "",
+          "emoji": "🌙"
+        },
+        {
+          "id": "sa_chh",
+          "character": "छ",
+          "word": "छत्रम्",
+          "translation": "Umbrella",
+          "image": "",
+          "emoji": "☂️"
+        },
+        {
+          "id": "sa_j",
+          "character": "ज",
+          "word": "जलम्",
+          "translation": "Water",
+          "image": "",
+          "emoji": "💧"
+        },
+        {
+          "id": "sa_jh",
+          "character": "झ",
+          "word": "झषः",
+          "translation": "Fish",
+          "image": "",
+          "emoji": "🐟"
+        },
+        {
+          "id": "sa_t",
+          "character": "त",
+          "word": "तरुः",
+          "translation": "Tree",
+          "image": "",
+          "emoji": "🌳"
+        },
+        {
+          "id": "sa_d",
+          "character": "द",
+          "word": "दुग्धम्",
+          "translation": "Milk",
+          "image": "",
+          "emoji": "🥛"
+        },
+        {
+          "id": "sa_n",
+          "character": "न",
+          "word": "नदी",
+          "translation": "River",
+          "image": "",
+          "emoji": "🏞️"
+        },
+        {
+          "id": "sa_p",
+          "character": "प",
+          "word": "पुष्पम्",
+          "translation": "Flower",
+          "image": "",
+          "emoji": "🌸"
+        },
+        {
+          "id": "sa_b",
+          "character": "ब",
+          "word": "बालः",
+          "translation": "Boy",
+          "image": "",
+          "emoji": "👦"
+        },
+        {
+          "id": "sa_bh",
+          "character": "भ",
+          "word": "भानुः",
+          "translation": "Sun",
+          "image": "",
+          "emoji": "☀️"
+        },
+        {
+          "id": "sa_m",
+          "character": "म",
+          "word": "मयूरः",
+          "translation": "Peacock",
+          "image": "",
+          "emoji": "🦚"
+        },
+        {
+          "id": "sa_y",
+          "character": "य",
+          "word": "यानम्",
+          "translation": "Vehicle",
+          "image": "",
+          "emoji": "🚗"
+        },
+        {
+          "id": "sa_r",
+          "character": "र",
+          "word": "राजा",
+          "translation": "King",
+          "image": "",
+          "emoji": "👑"
+        },
+        {
+          "id": "sa_l",
+          "character": "ल",
+          "word": "लता",
+          "translation": "Creeper",
+          "image": "",
+          "emoji": "🌿"
+        },
+        {
+          "id": "sa_v",
+          "character": "व",
+          "word": "वायुः",
+          "translation": "Wind",
+          "image": "",
+          "emoji": "🌬️"
+        },
+        {
+          "id": "sa_sh",
+          "character": "श",
+          "word": "शुकः",
+          "translation": "Parrot",
+          "image": "",
+          "emoji": "🦜"
+        },
+        {
+          "id": "sa_s",
+          "character": "स",
+          "word": "सूर्यः",
+          "translation": "Sun",
+          "image": "",
+          "emoji": "☀️"
+        },
+        {
+          "id": "sa_h",
+          "character": "ह",
+          "word": "हस्तः",
+          "translation": "Hand",
+          "image": "",
+          "emoji": "✋"
+        }
       ]
     },
     {
       "id": "numbers",
-      "title": "Numbers",
+      "title": "Numbers 1-100",
       "icon": "numbers",
       "items": [
-        { "id": "sa_num_1", "character": "१", "word": "एकम्", "translation": "One", "image": "assets/images/sanskrit/one.png" },
-        { "id": "sa_num_2", "character": "२", "word": "द्वे", "translation": "Two", "image": "assets/images/sanskrit/two.png" },
-        { "id": "sa_num_3", "character": "३", "word": "त्रीणि", "translation": "Three", "image": "assets/images/sanskrit/three.png" },
-        { "id": "sa_num_4", "character": "४", "word": "चत्वारि", "translation": "Four", "image": "assets/images/sanskrit/four.png" },
-        { "id": "sa_num_5", "character": "५", "word": "पञ्च", "translation": "Five", "image": "assets/images/sanskrit/five.png" }
+        {
+          "id": "sa_num_1",
+          "character": "१",
+          "word": "एकम्",
+          "translation": "One",
+          "image": ""
+        },
+        {
+          "id": "sa_num_2",
+          "character": "२",
+          "word": "द्वे",
+          "translation": "Two",
+          "image": ""
+        },
+        {
+          "id": "sa_num_3",
+          "character": "३",
+          "word": "त्रीणि",
+          "translation": "Three",
+          "image": ""
+        },
+        {
+          "id": "sa_num_4",
+          "character": "४",
+          "word": "चत्वारि",
+          "translation": "Four",
+          "image": ""
+        },
+        {
+          "id": "sa_num_5",
+          "character": "५",
+          "word": "पञ्च",
+          "translation": "Five",
+          "image": ""
+        },
+        {
+          "id": "sa_num_6",
+          "character": "६",
+          "word": "षट्",
+          "translation": "Six",
+          "image": ""
+        },
+        {
+          "id": "sa_num_7",
+          "character": "७",
+          "word": "सप्त",
+          "translation": "Seven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_8",
+          "character": "८",
+          "word": "अष्ट",
+          "translation": "Eight",
+          "image": ""
+        },
+        {
+          "id": "sa_num_9",
+          "character": "९",
+          "word": "नव",
+          "translation": "Nine",
+          "image": ""
+        },
+        {
+          "id": "sa_num_10",
+          "character": "१०",
+          "word": "दश",
+          "translation": "Ten",
+          "image": ""
+        },
+        {
+          "id": "sa_num_11",
+          "character": "११",
+          "word": "एकादश",
+          "translation": "Eleven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_12",
+          "character": "१२",
+          "word": "द्वादश",
+          "translation": "Twelve",
+          "image": ""
+        },
+        {
+          "id": "sa_num_13",
+          "character": "१३",
+          "word": "त्रयोदश",
+          "translation": "Thirteen",
+          "image": ""
+        },
+        {
+          "id": "sa_num_14",
+          "character": "१४",
+          "word": "चतुर्दश",
+          "translation": "Fourteen",
+          "image": ""
+        },
+        {
+          "id": "sa_num_15",
+          "character": "१५",
+          "word": "पञ्चदश",
+          "translation": "Fifteen",
+          "image": ""
+        },
+        {
+          "id": "sa_num_16",
+          "character": "१६",
+          "word": "षोडश",
+          "translation": "Sixteen",
+          "image": ""
+        },
+        {
+          "id": "sa_num_17",
+          "character": "१७",
+          "word": "सप्तदश",
+          "translation": "Seventeen",
+          "image": ""
+        },
+        {
+          "id": "sa_num_18",
+          "character": "१८",
+          "word": "अष्टादश",
+          "translation": "Eighteen",
+          "image": ""
+        },
+        {
+          "id": "sa_num_19",
+          "character": "१९",
+          "word": "एकोनविंशति",
+          "translation": "Nineteen",
+          "image": ""
+        },
+        {
+          "id": "sa_num_20",
+          "character": "२०",
+          "word": "विंशति",
+          "translation": "Twenty",
+          "image": ""
+        },
+        {
+          "id": "sa_num_21",
+          "character": "२१",
+          "word": "एकविंशति",
+          "translation": "Twenty-One",
+          "image": ""
+        },
+        {
+          "id": "sa_num_22",
+          "character": "२२",
+          "word": "द्वाविंशति",
+          "translation": "Twenty-Two",
+          "image": ""
+        },
+        {
+          "id": "sa_num_23",
+          "character": "२३",
+          "word": "त्रयोविंशति",
+          "translation": "Twenty-Three",
+          "image": ""
+        },
+        {
+          "id": "sa_num_24",
+          "character": "२४",
+          "word": "चतुर्विंशति",
+          "translation": "Twenty-Four",
+          "image": ""
+        },
+        {
+          "id": "sa_num_25",
+          "character": "२५",
+          "word": "पञ्चविंशति",
+          "translation": "Twenty-Five",
+          "image": ""
+        },
+        {
+          "id": "sa_num_26",
+          "character": "२६",
+          "word": "षड्विंशति",
+          "translation": "Twenty-Six",
+          "image": ""
+        },
+        {
+          "id": "sa_num_27",
+          "character": "२७",
+          "word": "सप्तविंशति",
+          "translation": "Twenty-Seven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_28",
+          "character": "२८",
+          "word": "अष्टाविंशति",
+          "translation": "Twenty-Eight",
+          "image": ""
+        },
+        {
+          "id": "sa_num_29",
+          "character": "२९",
+          "word": "एकोनत्रिंशत्",
+          "translation": "Twenty-Nine",
+          "image": ""
+        },
+        {
+          "id": "sa_num_30",
+          "character": "३०",
+          "word": "त्रिंशत्",
+          "translation": "Thirty",
+          "image": ""
+        },
+        {
+          "id": "sa_num_31",
+          "character": "३१",
+          "word": "एकत्रिंशत्",
+          "translation": "Thirty-One",
+          "image": ""
+        },
+        {
+          "id": "sa_num_32",
+          "character": "३२",
+          "word": "द्वात्रिंशत्",
+          "translation": "Thirty-Two",
+          "image": ""
+        },
+        {
+          "id": "sa_num_33",
+          "character": "३३",
+          "word": "त्रयस्त्रिंशत्",
+          "translation": "Thirty-Three",
+          "image": ""
+        },
+        {
+          "id": "sa_num_34",
+          "character": "३४",
+          "word": "चतुस्त्रिंशत्",
+          "translation": "Thirty-Four",
+          "image": ""
+        },
+        {
+          "id": "sa_num_35",
+          "character": "३५",
+          "word": "पञ्चत्रिंशत्",
+          "translation": "Thirty-Five",
+          "image": ""
+        },
+        {
+          "id": "sa_num_36",
+          "character": "३६",
+          "word": "षट्त्रिंशत्",
+          "translation": "Thirty-Six",
+          "image": ""
+        },
+        {
+          "id": "sa_num_37",
+          "character": "३७",
+          "word": "सप्तत्रिंशत्",
+          "translation": "Thirty-Seven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_38",
+          "character": "३८",
+          "word": "अष्टात्रिंशत्",
+          "translation": "Thirty-Eight",
+          "image": ""
+        },
+        {
+          "id": "sa_num_39",
+          "character": "३९",
+          "word": "एकोनचत्वारिंशत्",
+          "translation": "Thirty-Nine",
+          "image": ""
+        },
+        {
+          "id": "sa_num_40",
+          "character": "४०",
+          "word": "चत्वारिंशत्",
+          "translation": "Forty",
+          "image": ""
+        },
+        {
+          "id": "sa_num_41",
+          "character": "४१",
+          "word": "एकचत्वारिंशत्",
+          "translation": "Forty-One",
+          "image": ""
+        },
+        {
+          "id": "sa_num_42",
+          "character": "४२",
+          "word": "द्विचत्वारिंशत्",
+          "translation": "Forty-Two",
+          "image": ""
+        },
+        {
+          "id": "sa_num_43",
+          "character": "४३",
+          "word": "त्रिचत्वारिंशत्",
+          "translation": "Forty-Three",
+          "image": ""
+        },
+        {
+          "id": "sa_num_44",
+          "character": "४४",
+          "word": "चतुश्चत्वारिंशत्",
+          "translation": "Forty-Four",
+          "image": ""
+        },
+        {
+          "id": "sa_num_45",
+          "character": "४५",
+          "word": "पञ्चचत्वारिंशत्",
+          "translation": "Forty-Five",
+          "image": ""
+        },
+        {
+          "id": "sa_num_46",
+          "character": "४६",
+          "word": "षट्चत्वारिंशत्",
+          "translation": "Forty-Six",
+          "image": ""
+        },
+        {
+          "id": "sa_num_47",
+          "character": "४७",
+          "word": "सप्तचत्वारिंशत्",
+          "translation": "Forty-Seven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_48",
+          "character": "४८",
+          "word": "अष्टचत्वारिंशत्",
+          "translation": "Forty-Eight",
+          "image": ""
+        },
+        {
+          "id": "sa_num_49",
+          "character": "४९",
+          "word": "एकोनपञ्चाशत्",
+          "translation": "Forty-Nine",
+          "image": ""
+        },
+        {
+          "id": "sa_num_50",
+          "character": "५०",
+          "word": "पञ्चाशत्",
+          "translation": "Fifty",
+          "image": ""
+        },
+        {
+          "id": "sa_num_51",
+          "character": "५१",
+          "word": "एकपञ्चाशत्",
+          "translation": "Fifty-One",
+          "image": ""
+        },
+        {
+          "id": "sa_num_52",
+          "character": "५२",
+          "word": "द्विपञ्चाशत्",
+          "translation": "Fifty-Two",
+          "image": ""
+        },
+        {
+          "id": "sa_num_53",
+          "character": "५३",
+          "word": "त्रिपञ्चाशत्",
+          "translation": "Fifty-Three",
+          "image": ""
+        },
+        {
+          "id": "sa_num_54",
+          "character": "५४",
+          "word": "चतुःपञ्चाशत्",
+          "translation": "Fifty-Four",
+          "image": ""
+        },
+        {
+          "id": "sa_num_55",
+          "character": "५५",
+          "word": "पञ्चपञ्चाशत्",
+          "translation": "Fifty-Five",
+          "image": ""
+        },
+        {
+          "id": "sa_num_56",
+          "character": "५६",
+          "word": "षट्पञ्चाशत्",
+          "translation": "Fifty-Six",
+          "image": ""
+        },
+        {
+          "id": "sa_num_57",
+          "character": "५७",
+          "word": "सप्तपञ्चाशत्",
+          "translation": "Fifty-Seven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_58",
+          "character": "५८",
+          "word": "अष्टपञ्चाशत्",
+          "translation": "Fifty-Eight",
+          "image": ""
+        },
+        {
+          "id": "sa_num_59",
+          "character": "५९",
+          "word": "एकोनषष्टि",
+          "translation": "Fifty-Nine",
+          "image": ""
+        },
+        {
+          "id": "sa_num_60",
+          "character": "६०",
+          "word": "षष्टि",
+          "translation": "Sixty",
+          "image": ""
+        },
+        {
+          "id": "sa_num_61",
+          "character": "६१",
+          "word": "एकषष्टि",
+          "translation": "Sixty-One",
+          "image": ""
+        },
+        {
+          "id": "sa_num_62",
+          "character": "६२",
+          "word": "द्विषष्टि",
+          "translation": "Sixty-Two",
+          "image": ""
+        },
+        {
+          "id": "sa_num_63",
+          "character": "६३",
+          "word": "त्रिषष्टि",
+          "translation": "Sixty-Three",
+          "image": ""
+        },
+        {
+          "id": "sa_num_64",
+          "character": "६४",
+          "word": "चतुःषष्टि",
+          "translation": "Sixty-Four",
+          "image": ""
+        },
+        {
+          "id": "sa_num_65",
+          "character": "६५",
+          "word": "पञ्चषष्टि",
+          "translation": "Sixty-Five",
+          "image": ""
+        },
+        {
+          "id": "sa_num_66",
+          "character": "६६",
+          "word": "षट्षष्टि",
+          "translation": "Sixty-Six",
+          "image": ""
+        },
+        {
+          "id": "sa_num_67",
+          "character": "६७",
+          "word": "सप्तषष्टि",
+          "translation": "Sixty-Seven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_68",
+          "character": "६८",
+          "word": "अष्टषष्टि",
+          "translation": "Sixty-Eight",
+          "image": ""
+        },
+        {
+          "id": "sa_num_69",
+          "character": "६९",
+          "word": "एकोनसप्तति",
+          "translation": "Sixty-Nine",
+          "image": ""
+        },
+        {
+          "id": "sa_num_70",
+          "character": "७०",
+          "word": "सप्तति",
+          "translation": "Seventy",
+          "image": ""
+        },
+        {
+          "id": "sa_num_71",
+          "character": "७१",
+          "word": "एकसप्तति",
+          "translation": "Seventy-One",
+          "image": ""
+        },
+        {
+          "id": "sa_num_72",
+          "character": "७२",
+          "word": "द्विसप्तति",
+          "translation": "Seventy-Two",
+          "image": ""
+        },
+        {
+          "id": "sa_num_73",
+          "character": "७३",
+          "word": "त्रिसप्तति",
+          "translation": "Seventy-Three",
+          "image": ""
+        },
+        {
+          "id": "sa_num_74",
+          "character": "७४",
+          "word": "चतुःसप्तति",
+          "translation": "Seventy-Four",
+          "image": ""
+        },
+        {
+          "id": "sa_num_75",
+          "character": "७५",
+          "word": "पञ्चसप्तति",
+          "translation": "Seventy-Five",
+          "image": ""
+        },
+        {
+          "id": "sa_num_76",
+          "character": "७६",
+          "word": "षट्सप्तति",
+          "translation": "Seventy-Six",
+          "image": ""
+        },
+        {
+          "id": "sa_num_77",
+          "character": "७७",
+          "word": "सप्तसप्तति",
+          "translation": "Seventy-Seven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_78",
+          "character": "७८",
+          "word": "अष्टसप्तति",
+          "translation": "Seventy-Eight",
+          "image": ""
+        },
+        {
+          "id": "sa_num_79",
+          "character": "७९",
+          "word": "एकोनाशीति",
+          "translation": "Seventy-Nine",
+          "image": ""
+        },
+        {
+          "id": "sa_num_80",
+          "character": "८०",
+          "word": "अशीति",
+          "translation": "Eighty",
+          "image": ""
+        },
+        {
+          "id": "sa_num_81",
+          "character": "८१",
+          "word": "एकाशीति",
+          "translation": "Eighty-One",
+          "image": ""
+        },
+        {
+          "id": "sa_num_82",
+          "character": "८२",
+          "word": "द्व्यशीति",
+          "translation": "Eighty-Two",
+          "image": ""
+        },
+        {
+          "id": "sa_num_83",
+          "character": "८३",
+          "word": "त्र्यशीति",
+          "translation": "Eighty-Three",
+          "image": ""
+        },
+        {
+          "id": "sa_num_84",
+          "character": "८४",
+          "word": "चतुरशीति",
+          "translation": "Eighty-Four",
+          "image": ""
+        },
+        {
+          "id": "sa_num_85",
+          "character": "८५",
+          "word": "पञ्चाशीति",
+          "translation": "Eighty-Five",
+          "image": ""
+        },
+        {
+          "id": "sa_num_86",
+          "character": "८६",
+          "word": "षडशीति",
+          "translation": "Eighty-Six",
+          "image": ""
+        },
+        {
+          "id": "sa_num_87",
+          "character": "८७",
+          "word": "सप्ताशीति",
+          "translation": "Eighty-Seven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_88",
+          "character": "८८",
+          "word": "अष्टाशीति",
+          "translation": "Eighty-Eight",
+          "image": ""
+        },
+        {
+          "id": "sa_num_89",
+          "character": "८९",
+          "word": "एकोननवति",
+          "translation": "Eighty-Nine",
+          "image": ""
+        },
+        {
+          "id": "sa_num_90",
+          "character": "९०",
+          "word": "नवति",
+          "translation": "Ninety",
+          "image": ""
+        },
+        {
+          "id": "sa_num_91",
+          "character": "९१",
+          "word": "एकनवति",
+          "translation": "Ninety-One",
+          "image": ""
+        },
+        {
+          "id": "sa_num_92",
+          "character": "९२",
+          "word": "द्विनवति",
+          "translation": "Ninety-Two",
+          "image": ""
+        },
+        {
+          "id": "sa_num_93",
+          "character": "९३",
+          "word": "त्रिनवति",
+          "translation": "Ninety-Three",
+          "image": ""
+        },
+        {
+          "id": "sa_num_94",
+          "character": "९४",
+          "word": "चतुर्नवति",
+          "translation": "Ninety-Four",
+          "image": ""
+        },
+        {
+          "id": "sa_num_95",
+          "character": "९५",
+          "word": "पञ्चनवति",
+          "translation": "Ninety-Five",
+          "image": ""
+        },
+        {
+          "id": "sa_num_96",
+          "character": "९६",
+          "word": "षण्णवति",
+          "translation": "Ninety-Six",
+          "image": ""
+        },
+        {
+          "id": "sa_num_97",
+          "character": "९७",
+          "word": "सप्तनवति",
+          "translation": "Ninety-Seven",
+          "image": ""
+        },
+        {
+          "id": "sa_num_98",
+          "character": "९८",
+          "word": "अष्टनवति",
+          "translation": "Ninety-Eight",
+          "image": ""
+        },
+        {
+          "id": "sa_num_99",
+          "character": "९९",
+          "word": "एकोनशत",
+          "translation": "Ninety-Nine",
+          "image": ""
+        },
+        {
+          "id": "sa_num_100",
+          "character": "१००",
+          "word": "शतम्",
+          "translation": "One Hundred",
+          "image": ""
+        }
       ]
     },
     {
@@ -45,10 +986,90 @@
       "title": "Colors",
       "icon": "palette",
       "items": [
-        { "id": "sa_col_red", "character": "🔴", "word": "रक्तः", "translation": "Red", "image": "assets/images/sanskrit/red.png" },
-        { "id": "sa_col_blue", "character": "🔵", "word": "नीलः", "translation": "Blue", "image": "assets/images/sanskrit/blue.png" },
-        { "id": "sa_col_green", "character": "🟢", "word": "हरितः", "translation": "Green", "image": "assets/images/sanskrit/green.png" },
-        { "id": "sa_col_yellow", "character": "🟡", "word": "पीतः", "translation": "Yellow", "image": "assets/images/sanskrit/yellow.png" }
+        {
+          "id": "sa_colors_red",
+          "character": "🔴",
+          "word": "रक्तः",
+          "translation": "Red",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_blue",
+          "character": "🔵",
+          "word": "नीलः",
+          "translation": "Blue",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_green",
+          "character": "🟢",
+          "word": "हरितः",
+          "translation": "Green",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_yellow",
+          "character": "🟡",
+          "word": "पीतः",
+          "translation": "Yellow",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_orange",
+          "character": "🟠",
+          "word": "नारङ्गः",
+          "translation": "Orange",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_purple",
+          "character": "🟣",
+          "word": "धूम्रवर्णः",
+          "translation": "Purple",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_pink",
+          "character": "🩷",
+          "word": "पाटलः",
+          "translation": "Pink",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_black",
+          "character": "⚫",
+          "word": "कृष्णः",
+          "translation": "Black",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_white",
+          "character": "⚪",
+          "word": "श्वेतः",
+          "translation": "White",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_brown",
+          "character": "🟤",
+          "word": "कपिशः",
+          "translation": "Brown",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_grey",
+          "character": "🩶",
+          "word": "धूसरः",
+          "translation": "Grey",
+          "image": ""
+        },
+        {
+          "id": "sa_colors_gold",
+          "character": "🥇",
+          "word": "सुवर्णः",
+          "translation": "Gold",
+          "image": ""
+        }
       ]
     },
     {
@@ -56,10 +1077,181 @@
       "title": "Animals",
       "icon": "pets",
       "items": [
-        { "id": "sa_an_cow", "character": "🐄", "word": "गौः", "translation": "Cow", "image": "assets/images/sanskrit/cow.png" },
-        { "id": "sa_an_horse", "character": "🐎", "word": "अश्वः", "translation": "Horse", "image": "assets/images/sanskrit/horse.png" },
-        { "id": "sa_an_dog", "character": "🐕", "word": "श्वा", "translation": "Dog", "image": "assets/images/sanskrit/dog.png" },
-        { "id": "sa_an_elephant", "character": "🐘", "word": "गजः", "translation": "Elephant", "image": "assets/images/sanskrit/elephant.png" }
+        {
+          "id": "sa_animals_lion",
+          "character": "🦁",
+          "word": "सिंहः",
+          "translation": "Lion",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_tiger",
+          "character": "🐯",
+          "word": "व्याघ्रः",
+          "translation": "Tiger",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_elephant",
+          "character": "🐘",
+          "word": "गजः",
+          "translation": "Elephant",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_monkey",
+          "character": "🐒",
+          "word": "वानरः",
+          "translation": "Monkey",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_bear",
+          "character": "🐻",
+          "word": "भल्लुकः",
+          "translation": "Bear",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_deer",
+          "character": "🦌",
+          "word": "मृगः",
+          "translation": "Deer",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_horse",
+          "character": "🐎",
+          "word": "अश्वः",
+          "translation": "Horse",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_cow",
+          "character": "🐄",
+          "word": "गौः",
+          "translation": "Cow",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_goat",
+          "character": "🐐",
+          "word": "अजा",
+          "translation": "Goat",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_dog",
+          "character": "🐕",
+          "word": "श्वानः",
+          "translation": "Dog",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_cat",
+          "character": "🐈",
+          "word": "मार्जारः",
+          "translation": "Cat",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_camel",
+          "character": "🐫",
+          "word": "उष्ट्रः",
+          "translation": "Camel",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_rabbit",
+          "character": "🐇",
+          "word": "शशकः",
+          "translation": "Rabbit",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_fox",
+          "character": "🦊",
+          "word": "जम्बुकः",
+          "translation": "Fox",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_wolf",
+          "character": "🐺",
+          "word": "वृकः",
+          "translation": "Wolf",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_buffalo",
+          "character": "🐃",
+          "word": "महिषः",
+          "translation": "Buffalo",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_donkey",
+          "character": "🫏",
+          "word": "गर्दभः",
+          "translation": "Donkey",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_pig",
+          "character": "🐖",
+          "word": "वराहः",
+          "translation": "Pig",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_sheep",
+          "character": "🐑",
+          "word": "मेषः",
+          "translation": "Sheep",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_crocodile",
+          "character": "🐊",
+          "word": "नक्रः",
+          "translation": "Crocodile",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_snake",
+          "character": "🐍",
+          "word": "सर्पः",
+          "translation": "Snake",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_peacock",
+          "character": "🦚",
+          "word": "मयूरः",
+          "translation": "Peacock",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_parrot",
+          "character": "🦜",
+          "word": "शुकः",
+          "translation": "Parrot",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_giraffe",
+          "character": "🦒",
+          "word": "चित्रोष्ट्रः",
+          "translation": "Giraffe",
+          "image": ""
+        },
+        {
+          "id": "sa_animals_frog",
+          "character": "🐸",
+          "word": "मण्डूकः",
+          "translation": "Frog",
+          "image": ""
+        }
       ]
     }
   ]
