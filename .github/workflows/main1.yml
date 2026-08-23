@@ -1,0 +1,57 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      - name: Remove any stale/partial platform folders
+        run: rm -rf android ios web linux macos windows
+
+      - name: Scaffold native platform folders
+        run: flutter create . --org com.gujjulearn.app
+
+      - name: Verify Android project was scaffolded
+        run: |
+          if [ ! -f android/app/build.gradle ] && [ ! -f android/app/build.gradle.kts ]; then
+            echo "::error::Neither android/app/build.gradle nor build.gradle.kts found after 'flutter create .' -- scaffolding failed."
+            echo "Contents of android/ (if any):"
+            find android -maxdepth 3 2>/dev/null || echo "(android/ does not exist)"
+            exit 1
+          fi
+          echo "Android app module found -- scaffold looks correct."
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Analyze
+        run: flutter analyze
+        continue-on-error: true
+
+      - name: Build release APK
+        run: flutter build apk --release --split-per-abi
+
+      - name: Upload APKs
+        uses: actions/upload-artifact@v4
+        with:
+          name: gujju-learn-apk
+          path: build/app/outputs/flutter-apk/*.apk
+          retention-days: 14
